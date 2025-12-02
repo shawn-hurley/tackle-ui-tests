@@ -15,11 +15,11 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getJiraCredentialData } from "../../../../utils/data_utils";
-import { login } from "../../../../utils/utils";
-import { JiraCredentials } from "../../../models/administration/credentials/JiraCredentials";
-import { CredentialType } from "../../../types/constants";
-import { CredentialsData } from "../../../types/types";
+import { getJiraCredentialData } from "../../../../../utils/data_utils";
+import { login } from "../../../../../utils/utils";
+import { JiraCredentials } from "../../../../models/administration/credentials/JiraCredentials";
+import { CredentialType } from "../../../../types/constants";
+import { CredentialsData } from "../../../../types/types";
 
 // Commented Token tests as now they can't be run because of missing environment.
 describe(["@tier2"], "Validation of jira credentials", () => {

@@ -30,15 +30,15 @@ import {
     verifyDateSortDesc,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../utils/utils";
-import { endDate, SortType, startDate } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { endDate, SortType, startDate } from "../../../../types/constants";
 
-import * as data from "../../../../utils/data_utils";
-import { Application } from "../../../models/migration/applicationinventory/application";
-import { BusinessServices } from "../../../models/migration/controls/businessservices";
-import { Stakeholders } from "../../../models/migration/controls/stakeholders";
-import { MigrationWave } from "../../../models/migration/migration-waves/migration-wave";
-import { name } from "../../../types/constants";
+import * as data from "../../../../../utils/data_utils";
+import { Application } from "../../../../models/migration/applicationinventory/application";
+import { BusinessServices } from "../../../../models/migration/controls/businessservices";
+import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
+import { name } from "../../../../types/constants";
 import { MigrationWaveView } from "../../../views/migration-wave.view";
 
 let migrationWavesList: MigrationWave[] = [];

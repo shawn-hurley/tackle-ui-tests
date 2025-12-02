@@ -25,7 +25,7 @@ import {
     exists,
     login,
     selectItemsPerPage,
-} from "../../../../../utils/utils";
+} from "../../../../../../utils/utils";
 import {
     button,
     clearAllFilters,
@@ -34,12 +34,12 @@ import {
     stakeholders,
     tdTag,
     trTag,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 
 import * as commonView from "../../../../../e2e/views/common.view";
-import * as data from "../../../../../utils/data_utils";
-import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import * as data from "../../../../../../utils/data_utils";
+import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 
 let stakeholdersList: Array<Stakeholders> = [];
 let stakeholderGroupsList: Array<Stakeholdergroups> = [];

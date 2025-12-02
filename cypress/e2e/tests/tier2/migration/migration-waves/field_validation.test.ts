@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
 import {
     checkSuccessAlert,
     clickJs,
@@ -24,9 +24,9 @@ import {
     login,
     validateTooLongInput,
     validateTooShortInput,
-} from "../../../../utils/utils";
-import { MigrationWave } from "../../../models/migration/migration-waves/migration-wave";
-import { duplicateMigrationWaveError } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
+import { duplicateMigrationWaveError } from "../../../../types/constants";
 import * as commonView from "../../../views/common.view";
 import { cancelButton } from "../../../views/common.view";
 import { MigrationWaveView } from "../../../views/migration-wave.view";

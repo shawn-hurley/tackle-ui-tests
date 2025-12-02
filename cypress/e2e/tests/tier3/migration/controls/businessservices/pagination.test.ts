@@ -23,8 +23,8 @@ import {
     login,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../../utils/utils";
-import { BusinessServices } from "../../../../models/migration/controls/businessservices";
+} from "../../../../../../utils/utils";
+import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
 
 describe(["@tier3"], "Business services pagination validations", function () {
     before("Login and Create Test Data", function () {

@@ -117,7 +117,6 @@ jobs:
               with:
                   working-directory: tackle-ui-tests
                   spec: "${{ inputs.test_spec }}"
-                  command: npx cypress run --spec "${{ inputs.test_spec }}" --env SPLIT=${{ strategy.job-total }},SPLIT_INDEX=${{ strategy.job-index }}
 
             - uses: actions/upload-artifact@v4
               if: failure()

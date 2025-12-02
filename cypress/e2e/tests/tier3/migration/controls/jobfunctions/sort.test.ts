@@ -23,9 +23,9 @@ import {
     login,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../../utils/utils";
-import { Jobfunctions } from "../../../../models/migration/controls/jobfunctions";
-import { name, SortType } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Jobfunctions } from "../../../../../models/migration/controls/jobfunctions";
+import { name, SortType } from "../../../../../types/constants";
 
 let jobFunctionsList: Array<Jobfunctions> = [];
 

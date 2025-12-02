@@ -20,9 +20,9 @@ import {
     getRandomApplicationData,
     login,
     validatePagination,
-} from "../../../../../utils/utils";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Dependencies } from "../../../../models/migration/dynamic-report/dependencies/dependencies";
+} from "../../../../../../utils/utils";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Dependencies } from "../../../../../models/migration/dynamic-report/dependencies/dependencies";
 
 describe(["@tier3"], "Bug MTA-4598 - Dependencies pagination validation", function () {
     let application: Analysis;

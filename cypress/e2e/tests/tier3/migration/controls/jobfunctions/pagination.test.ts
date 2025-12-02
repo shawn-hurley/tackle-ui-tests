@@ -22,8 +22,8 @@ import {
     login,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../../utils/utils";
-import { Jobfunctions } from "../../../../models/migration/controls/jobfunctions";
+} from "../../../../../../utils/utils";
+import { Jobfunctions } from "../../../../../models/migration/controls/jobfunctions";
 let jobFunctionsList: Array<Jobfunctions> = [];
 
 describe(["@tier3"], "Job functions pagination validations", function () {

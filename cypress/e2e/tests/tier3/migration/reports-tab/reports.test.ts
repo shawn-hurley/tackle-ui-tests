@@ -22,12 +22,12 @@ import {
     deleteApplicationTableRows,
     deleteByList,
     login,
-} from "../../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Application } from "../../../models/migration/applicationinventory/application";
-import { Stakeholders } from "../../../models/migration/controls/stakeholders";
-import { Reports } from "../../../models/migration/reports-tab/reports-tab";
-import { legacyPathfinder } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Application } from "../../../../models/migration/applicationinventory/application";
+import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import { Reports } from "../../../../models/migration/reports-tab/reports-tab";
+import { legacyPathfinder } from "../../../../types/constants";
 
 let stakeholdersList: Array<Stakeholders> = [];
 let applicationsList: Array<Application> = [];

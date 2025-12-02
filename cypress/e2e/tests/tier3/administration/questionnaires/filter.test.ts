@@ -15,15 +15,15 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { applySearchFilter, clickByText, exists, login, notExists } from "../../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { applySearchFilter, clickByText, exists, login, notExists } from "../../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
 import {
     button,
     clearAllFilters,
     cloudNative,
     legacyPathfinder,
     name,
-} from "../../../types/constants";
+} from "../../../../types/constants";
 
 const yamlFileName = "questionnaire_import/cloud-native.yaml";
 let assessmentQuestionnaireList: Array<string> = [];

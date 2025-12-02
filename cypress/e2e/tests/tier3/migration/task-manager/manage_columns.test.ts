@@ -22,9 +22,9 @@ import {
     selectColumns,
     validateCheckBoxIsDisabled,
     validateTextPresence,
-} from "../../../../utils/utils";
-import { TaskManager } from "../../../models/migration/task-manager/task-manager";
-import { button, cancel, save } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
+import { button, cancel, save } from "../../../../types/constants";
 import { tableHead } from "../../../views/common.view";
 import { TaskManagerTableHeaders } from "../../../views/taskmanager.view";
 

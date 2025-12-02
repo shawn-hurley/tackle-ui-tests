@@ -15,8 +15,8 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { patchTackleCR } from "../../../utils/utils";
-import { Metrics } from "../../models/migration/custom-metrics/custom-metrics";
+import { patchTackleCR } from "../../../../utils/utils";
+import { Metrics } from "../../../models/migration/custom-metrics/custom-metrics";
 const metrics = new Metrics();
 let metricsEnabled: boolean;
 

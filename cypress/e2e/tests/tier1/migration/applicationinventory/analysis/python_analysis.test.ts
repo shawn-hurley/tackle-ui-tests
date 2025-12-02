@@ -19,9 +19,9 @@ import {
     deleteByList,
     getRandomAnalysisData,
     getRandomApplicationData,
-} from "../../../../../utils/utils";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Application } from "../../../../models/migration/applicationinventory/application";
+} from "../../../../../../utils/utils";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
 
 let applicationsList: Array<Analysis> = [];
 describe(["@tier1"], "Python app analysis", () => {

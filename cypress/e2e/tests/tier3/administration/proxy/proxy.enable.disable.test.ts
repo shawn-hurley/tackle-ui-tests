@@ -19,11 +19,11 @@ import {
     getRandomCredentialsData,
     getRandomProxyData,
     getRandomWord,
-} from "../../../../utils/data_utils";
-import { login } from "../../../../utils/utils";
-import { CredentialsProxy } from "../../../models/administration/credentials/credentialsProxy";
-import { Proxy } from "../../../models/administration/proxy/proxy";
-import { CredentialType } from "../../../types/constants";
+} from "../../../../../utils/data_utils";
+import { login } from "../../../../../utils/utils";
+import { CredentialsProxy } from "../../../../models/administration/credentials/credentialsProxy";
+import { Proxy } from "../../../../models/administration/proxy/proxy";
+import { CredentialType } from "../../../../types/constants";
 import { submitButton } from "../../../views/common.view";
 import { helper, port, ProxyType, ProxyViewSelectorsByType } from "../../../views/proxy.view";
 

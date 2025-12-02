@@ -15,17 +15,17 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getRandomCredentialsData } from "../../../../utils/data_utils";
+import { getRandomCredentialsData } from "../../../../../utils/data_utils";
 import {
     click,
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../../utils/utils";
-import { Credentials } from "../../../models/administration/credentials/credentials";
-import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
-import { CredentialType, trTag, UserCredentials } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { Credentials } from "../../../../models/administration/credentials/credentials";
+import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+import { CredentialType, trTag, UserCredentials } from "../../../../types/constants";
 import { sideKebabMenu } from "../../../views/applicationinventory.view";
 
 let source_credential: CredentialsSourceControlUsername;

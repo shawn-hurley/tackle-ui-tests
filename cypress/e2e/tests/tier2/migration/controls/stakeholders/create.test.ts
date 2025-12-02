@@ -21,8 +21,8 @@ import {
     exists,
     inputText,
     notExists,
-} from "../../../../../utils/utils";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+} from "../../../../../../utils/utils";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import {
     button,
     createNewButton,
@@ -30,7 +30,7 @@ import {
     invalidEmailMsg,
     max120CharsMsg,
     minCharsMsg,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import {
     stakeholderEmailInput,
     stakeholderHelper,
@@ -38,7 +38,7 @@ import {
     stakeHoldersTable,
 } from "../../../../views/stakeholders.view";
 
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import * as commonView from "../../../../views/common.view";
 
 describe(["@tier2"], "Stakeholder validations", () => {

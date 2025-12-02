@@ -15,18 +15,18 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
-import { getRulesData } from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
+import { getRulesData } from "../../../../../utils/data_utils";
 import {
     deleteAllMigrationWaves,
     deleteApplicationTableRows,
     getRandomApplicationData,
     login,
-} from "../../../../utils/utils";
-import { CustomMigrationTarget } from "../../../models/administration/custom-migration-targets/custom-migration-target";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
-import { AnalysisStatuses, Languages } from "../../../types/constants";
-import { RulesRepositoryFields } from "../../../types/types";
+} from "../../../../../utils/utils";
+import { CustomMigrationTarget } from "../../../../models/administration/custom-migration-targets/custom-migration-target";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+import { AnalysisStatuses, Languages } from "../../../../types/constants";
+import { RulesRepositoryFields } from "../../../../types/types";
 
 // Automates Bug MTA-3330 | Polarion TC MTA-597
 describe(["@tier0"], "Custom Migration Targets rules trigger validation", () => {

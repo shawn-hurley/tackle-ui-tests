@@ -21,8 +21,8 @@ import {
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../../utils/utils";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+} from "../../../../../utils/utils";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
 import { taskDrawerItemTitle, taskNotificationBadge } from "../../../views/common.view";
 
 const analyses: Analysis[] = [];

@@ -23,8 +23,8 @@ import {
     login,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../../utils/utils";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+} from "../../../../../../utils/utils";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { appTable } from "../../../../views/common.view";
 
 describe(["@tier3"], "Stakeholder pagination validations", function () {

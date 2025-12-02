@@ -15,17 +15,17 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getRandomUserData } from "../../../utils/data_utils";
+import { getRandomUserData } from "../../../../utils/data_utils";
 import {
     deleteByList,
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../utils/utils";
-import { User } from "../../models/keycloak/users/user";
-import { UserMigrator } from "../../models/keycloak/users/userMigrator";
-import { Analysis } from "../../models/migration/applicationinventory/analysis";
-import { AnalysisStatuses, SEC } from "../../types/constants";
+} from "../../../../utils/utils";
+import { User } from "../../../models/keycloak/users/user";
+import { UserMigrator } from "../../../models/keycloak/users/userMigrator";
+import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+import { AnalysisStatuses, SEC } from "../../../types/constants";
 
 describe(["@tier3"], "Migrator Upload Binary Analysis", () => {
     const userMigrator = new UserMigrator(getRandomUserData());

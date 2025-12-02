@@ -15,12 +15,12 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { exists, notExists } from "../../../../../../utils/utils";
-import { TagCategory } from "../../../../../models/migration/controls/tagcategory";
-import { Tag } from "../../../../../models/migration/controls/tags";
+import { exists, notExists } from "../../../../../../../utils/utils";
+import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
+import { Tag } from "../../../../../../models/migration/controls/tags";
 
-import * as data from "../../../../../../utils/data_utils";
-import { color, tagCount } from "../../../../../types/constants";
+import * as data from "../../../../../../../utils/data_utils";
+import { color, tagCount } from "../../../../../../types/constants";
 
 describe(["@tier2"], "Tag tagCategory CRUD operations", () => {
     it("Tag Category CRUD", function () {

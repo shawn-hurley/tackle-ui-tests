@@ -15,8 +15,8 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
-import { randomWordGenerator } from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
+import { randomWordGenerator } from "../../../../../../utils/data_utils";
 import {
     clearAllFilters,
     clickWithinByText,
@@ -29,16 +29,16 @@ import {
     getRandomApplicationData,
     login,
     selectItemsPerPage,
-} from "../../../../../utils/utils";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Archetype } from "../../../../models/migration/archetypes/archetype";
-import { BusinessServices } from "../../../../models/migration/controls/businessservices";
-import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
-import { Tag } from "../../../../models/migration/controls/tags";
-import { Dependencies } from "../../../../models/migration/dynamic-report/dependencies/dependencies";
-import { button, dependencyFilter, SEC, trTag } from "../../../../types/constants";
-import { AppDependency } from "../../../../types/types";
+} from "../../../../../../utils/utils";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Archetype } from "../../../../../models/migration/archetypes/archetype";
+import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
+import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
+import { Tag } from "../../../../../models/migration/controls/tags";
+import { Dependencies } from "../../../../../models/migration/dynamic-report/dependencies/dependencies";
+import { button, dependencyFilter, SEC, trTag } from "../../../../../types/constants";
+import { AppDependency } from "../../../../../types/types";
 import { rightSideMenu } from "../../../../views/analysis.view";
 
 let applicationsList: Array<Analysis> = [];

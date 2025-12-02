@@ -20,8 +20,8 @@ import {
     deleteByList,
     login,
     validatePagination,
-} from "../../../../utils/utils";
-import { Credentials } from "../../../models/administration/credentials/credentials";
+} from "../../../../../utils/utils";
+import { Credentials } from "../../../../models/administration/credentials/credentials";
 
 describe(["@tier3"], "Tag type pagination validations", function () {
     let createdCredentialsList: Array<Credentials> = [];

@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getRandomUserData } from "../../../utils/data_utils";
+import { getRandomUserData } from "../../../../utils/data_utils";
 import {
     exists,
     expandRowDetails,
@@ -30,27 +30,27 @@ import {
     validateMtaVersionInCLI,
     validateMtaVersionInUI,
     validateTackleCr,
-} from "../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Credentials } from "../../models/administration/credentials/credentials";
-import { GeneralConfig } from "../../models/administration/general/generalConfig";
-import { MavenConfiguration } from "../../models/administration/repositories/maven";
-import { UserAdmin } from "../../models/keycloak/users/userAdmin";
-import { Analysis } from "../../models/migration/applicationinventory/analysis";
-import { Application } from "../../models/migration/applicationinventory/application";
-import { Archetype } from "../../models/migration/archetypes/archetype";
-import { BusinessServices } from "../../models/migration/controls/businessservices";
-import { Jobfunctions } from "../../models/migration/controls/jobfunctions";
-import { Stakeholdergroups } from "../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../models/migration/controls/stakeholders";
-import { TagCategory } from "../../models/migration/controls/tagcategory";
+} from "../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Credentials } from "../../../models/administration/credentials/credentials";
+import { GeneralConfig } from "../../../models/administration/general/generalConfig";
+import { MavenConfiguration } from "../../../models/administration/repositories/maven";
+import { UserAdmin } from "../../../models/keycloak/users/userAdmin";
+import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../models/migration/applicationinventory/application";
+import { Archetype } from "../../../models/migration/archetypes/archetype";
+import { BusinessServices } from "../../../models/migration/controls/businessservices";
+import { Jobfunctions } from "../../../models/migration/controls/jobfunctions";
+import { Stakeholdergroups } from "../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../models/migration/controls/stakeholders";
+import { TagCategory } from "../../../models/migration/controls/tagcategory";
 import {
     AnalysisStatuses,
     cloudReadinessQuestionnaire,
     legacyPathfinder,
     ReportTypeSelectors,
-} from "../../types/constants";
-import { UpgradeData } from "../../types/types";
+} from "../../../types/constants";
+import { UpgradeData } from "../../../types/types";
 import { clearRepository } from "../../views/repository.view";
 import { stakeHoldersTable } from "../../views/stakeholders.view";
 

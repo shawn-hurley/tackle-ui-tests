@@ -15,14 +15,14 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { checkSuccessAlert, click, clickByText, inputText } from "../../../../../../utils/utils";
-import { TagCategory } from "../../../../../models/migration/controls/tagcategory";
+import { checkSuccessAlert, click, clickByText, inputText } from "../../../../../../../utils/utils";
+import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
 import {
     button,
     duplicateTagTypeName,
     max40CharMsg,
     minCharsMsg,
-} from "../../../../../types/constants";
+} from "../../../../../../types/constants";
 import {
     createTagCategoryButton,
     dropdownMenuTypeToggle,
@@ -30,7 +30,7 @@ import {
     tagsHelper,
 } from "../../../../../views/tags.view";
 
-import * as data from "../../../../../../utils/data_utils";
+import * as data from "../../../../../../../utils/data_utils";
 import * as commonView from "../../../../../views/common.view";
 
 describe(["@tier2"], "Tag category validations", () => {

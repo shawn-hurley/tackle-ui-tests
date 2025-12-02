@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 /// <reference types="cypress" />
-import * as data from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
 import {
     checkSuccessAlert,
     createMultipleApplications,
@@ -23,12 +23,12 @@ import {
     deleteAllStakeholders,
     deleteByList,
     login,
-} from "../../../../utils/utils";
-import { Application } from "../../../models/migration/applicationinventory/application";
-import { Stakeholdergroups } from "../../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../../models/migration/controls/stakeholders";
-import { MigrationWave } from "../../../models/migration/migration-waves/migration-wave";
-import { SEC } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { Application } from "../../../../models/migration/applicationinventory/application";
+import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
+import { SEC } from "../../../../types/constants";
 import { successAlertMessage } from "../../../views/common.view";
 import {
     getSpecialMigrationWavesTableSelector,

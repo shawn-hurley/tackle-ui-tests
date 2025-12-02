@@ -18,11 +18,11 @@ import {
     createMultipleMigrationWaves,
     deleteByList,
     login,
-} from "../../../../utils/utils";
-import { button, clearAllFilters, name } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { button, clearAllFilters, name } from "../../../../types/constants";
 
-import * as data from "../../../../utils/data_utils";
-import { MigrationWave } from "../../../models/migration/migration-waves/migration-wave";
+import * as data from "../../../../../utils/data_utils";
+import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
 import { MigrationWaveView } from "../../../views/migration-wave.view";
 
 let migrationWavesList: Array<MigrationWave> = [];

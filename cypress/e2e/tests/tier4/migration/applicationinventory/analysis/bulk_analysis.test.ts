@@ -22,10 +22,10 @@ import {
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../../../utils/utils";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Metrics } from "../../../../models/migration/custom-metrics/custom-metrics";
-import { AnalysisStatuses, MIN } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Metrics } from "../../../../../models/migration/custom-metrics/custom-metrics";
+import { AnalysisStatuses, MIN } from "../../../../../types/constants";
 
 const analyses: Analysis[] = [];
 const NUMBER_OF_APPS = 25;

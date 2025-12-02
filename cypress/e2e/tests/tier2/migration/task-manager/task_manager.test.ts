@@ -25,11 +25,11 @@ import {
     login,
     notExists,
     validateTextPresence,
-} from "../../../../utils/utils";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
-import { Application } from "../../../models/migration/applicationinventory/application";
-import { TaskManager } from "../../../models/migration/task-manager/task-manager";
-import { SEC, TaskKind, TaskStatus } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../../models/migration/applicationinventory/application";
+import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
+import { SEC, TaskKind, TaskStatus } from "../../../../types/constants";
 import { taskNotificationBadge } from "../../../views/common.view";
 import { TaskManagerColumns, tasksTable } from "../../../views/taskmanager.view";
 

@@ -20,10 +20,10 @@ import {
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../utils/utils";
-import { Analysis } from "../../models/migration/applicationinventory/analysis";
-import { Application } from "../../models/migration/applicationinventory/application";
-import { Metrics } from "../../models/migration/custom-metrics/custom-metrics";
+} from "../../../../utils/utils";
+import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../models/migration/applicationinventory/application";
+import { Metrics } from "../../../models/migration/custom-metrics/custom-metrics";
 import { taskIcon } from "../../views/applicationinventory.view";
 const metrics = new Metrics();
 const metricName = "konveyor_tasks_initiated_total";

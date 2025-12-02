@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import {
     click,
     clickByText,
@@ -24,18 +24,18 @@ import {
     createMultipleStakeholders,
     deleteByList,
     login,
-} from "../../../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { Assessment } from "../../../../models/migration/applicationinventory/assessment";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+} from "../../../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { Assessment } from "../../../../../models/migration/applicationinventory/assessment";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import {
     button,
     cloudReadinessFilePath,
     cloudReadinessQuestionnaire,
     legacyPathfinder,
     SEC,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import { questionBlock } from "../../../../views/assessment.view";
 import {
     confirmButton,

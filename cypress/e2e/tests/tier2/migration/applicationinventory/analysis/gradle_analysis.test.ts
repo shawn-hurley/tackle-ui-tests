@@ -21,11 +21,11 @@ import {
     deleteByList,
     getRandomApplicationData,
     login,
-} from "../../../../../utils/utils";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { Issues } from "../../../../models/migration/dynamic-report/issues/issues";
-import { AnalysisStatuses } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { Issues } from "../../../../../models/migration/dynamic-report/issues/issues";
+import { AnalysisStatuses } from "../../../../../types/constants";
 
 const applications: Analysis[] = [];
 

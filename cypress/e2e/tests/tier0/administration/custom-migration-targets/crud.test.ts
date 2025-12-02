@@ -15,8 +15,8 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
-import { getRulesData } from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
+import { getRulesData } from "../../../../../utils/data_utils";
 import {
     click,
     clickByText,
@@ -28,10 +28,10 @@ import {
     login,
     next,
     selectItemsPerPage,
-} from "../../../../utils/utils";
-import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
-import { CustomMigrationTarget } from "../../../models/administration/custom-migration-targets/custom-migration-target";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+} from "../../../../../utils/utils";
+import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { CustomMigrationTarget } from "../../../../models/administration/custom-migration-targets/custom-migration-target";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
 import {
     analyzeButton,
     button,
@@ -39,7 +39,7 @@ import {
     Languages,
     SEC,
     UserCredentials,
-} from "../../../types/constants";
+} from "../../../../types/constants";
 import { cancelButton } from "../../../views/common.view";
 import { CustomMigrationTargetView } from "../../../views/custom-migration-target.view";
 

@@ -16,8 +16,8 @@ import {
     getRandomApplicationData,
     login,
     sidedrawerTab,
-} from "../../../../utils/utils";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+} from "../../../../../utils/utils";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
 
 let application: Analysis;
 const tasksKindsList = ["language-discovery", "tech-discovery", "analyzer"];

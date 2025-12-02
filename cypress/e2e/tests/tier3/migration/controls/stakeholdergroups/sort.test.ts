@@ -24,10 +24,10 @@ import {
     login,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../../utils/utils";
-import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
-import { memberCount, name, SortType } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
+import { memberCount, name, SortType } from "../../../../../types/constants";
 
 var stakeholdergroupsList: Array<Stakeholdergroups> = [];
 var stakeholdersList: Array<Stakeholders> = [];

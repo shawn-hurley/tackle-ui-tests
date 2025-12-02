@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import {
     closeRowDetails,
     deleteByList,
@@ -23,11 +23,11 @@ import {
     existsWithinRow,
     expandRowDetails,
     notExists,
-} from "../../../../../utils/utils";
-import { Jobfunctions } from "../../../../models/migration/controls/jobfunctions";
-import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
-import { tdTag } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Jobfunctions } from "../../../../../models/migration/controls/jobfunctions";
+import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
+import { tdTag } from "../../../../../types/constants";
 import { groupsCount, stakeHoldersTable } from "../../../../views/stakeholders.view";
 let jobFunctionsList: Array<Jobfunctions> = [];
 let stakeholderGroupList: Array<Stakeholdergroups> = [];

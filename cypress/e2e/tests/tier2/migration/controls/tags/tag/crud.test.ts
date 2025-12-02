@@ -21,11 +21,11 @@ import {
     existsWithinRow,
     expandRowDetails,
     notExistsWithinRow,
-} from "../../../../../../utils/utils";
-import { Tag } from "../../../../../models/migration/controls/tags";
+} from "../../../../../../../utils/utils";
+import { Tag } from "../../../../../../models/migration/controls/tags";
 
-import * as data from "../../../../../../utils/data_utils";
-import { tdTag } from "../../../../../types/constants";
+import * as data from "../../../../../../../utils/data_utils";
+import { tdTag } from "../../../../../../types/constants";
 
 describe(["@tier2"], "Tag CRUD operations", () => {
     beforeEach("Login", function () {

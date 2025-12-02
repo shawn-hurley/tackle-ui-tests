@@ -26,8 +26,8 @@ import {
     login,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../utils/utils";
-import { Archetype } from "../../../models/migration/archetypes/archetype";
+} from "../../../../../utils/utils";
+import { Archetype } from "../../../../models/migration/archetypes/archetype";
 let archetypeList: Archetype[] = [];
 
 describe(["@tier3"], "Archetypes pagination validations", function () {

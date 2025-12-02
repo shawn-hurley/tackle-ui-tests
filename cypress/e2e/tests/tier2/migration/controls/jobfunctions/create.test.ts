@@ -14,16 +14,16 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 /// <reference types="cypress" />
-import * as data from "../../../../../utils/data_utils";
-import { clickByText, clickJs, exists, inputText, notExists } from "../../../../../utils/utils";
-import { Jobfunctions } from "../../../../models/migration/controls/jobfunctions";
+import * as data from "../../../../../../utils/data_utils";
+import { clickByText, clickJs, exists, inputText, notExists } from "../../../../../../utils/utils";
+import { Jobfunctions } from "../../../../../models/migration/controls/jobfunctions";
 import {
     button,
     createNewButton,
     duplicateJobFunctionName,
     max120CharsMsg,
     minCharsMsg,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import * as commonView from "../../../../views/common.view";
 import { jobfunctionNameInput } from "../../../../views/jobfunctions.view";
 

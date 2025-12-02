@@ -16,26 +16,26 @@ limitations under the License.
 /// <reference types="cypress" />
 
 import { languageDiscoveryData } from "../../../../../fixtures/language_discovery.json";
-import { getRandomCredentialsData } from "../../../../../utils/data_utils";
+import { getRandomCredentialsData } from "../../../../../../utils/data_utils";
 import {
     deleteAppImportsTableRows,
     deleteApplicationTableRows,
     deleteByList,
     getRandomApplicationData,
     sidedrawerTab,
-} from "../../../../../utils/utils";
-import { Credentials } from "../../../../models/administration/credentials/credentials";
-import { CredentialsMaven } from "../../../../models/administration/credentials/credentialsMaven";
-import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
+} from "../../../../../../utils/utils";
+import { Credentials } from "../../../../../models/administration/credentials/credentials";
+import { CredentialsMaven } from "../../../../../models/administration/credentials/credentialsMaven";
+import { CredentialsSourceControlUsername } from "../../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { TaskManager } from "../../../../../models/migration/task-manager/task-manager";
 import {
     CredentialType,
     SEC,
     TaskKind,
     TaskStatus,
     UserCredentials,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import { labelTagText } from "../../../../views/applicationinventory.view";
 
 let applicationList: Application[] = [];

@@ -22,8 +22,8 @@ import {
     login,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../utils/utils";
-import { MigrationWave } from "../../../models/migration/migration-waves/migration-wave";
+} from "../../../../../utils/utils";
+import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
 
 let migrationWavesList: MigrationWave[] = [];
 

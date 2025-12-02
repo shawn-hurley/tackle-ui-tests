@@ -15,9 +15,9 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getRandomCredentialsData } from "../../../../utils/data_utils";
-import { CredentialsProxy } from "../../../models/administration/credentials/credentialsProxy";
-import { CredentialType } from "../../../types/constants";
+import { getRandomCredentialsData } from "../../../../../utils/data_utils";
+import { CredentialsProxy } from "../../../../models/administration/credentials/credentialsProxy";
+import { CredentialType } from "../../../../types/constants";
 
 describe(["@tier2"], "Validation of proxy credentials", () => {
     const proxyCreds = new CredentialsProxy(getRandomCredentialsData(CredentialType.proxy));

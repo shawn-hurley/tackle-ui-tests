@@ -26,12 +26,12 @@ import {
     exists,
     login,
     notExists,
-} from "../../../../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Application } from "../../../../../models/migration/applicationinventory/application";
-import { Archetype } from "../../../../../models/migration/archetypes/archetype";
-import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
-import { cloudNative, legacyPathfinder, review } from "../../../../../types/constants";
+} from "../../../../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Application } from "../../../../../../models/migration/applicationinventory/application";
+import { Archetype } from "../../../../../../models/migration/archetypes/archetype";
+import { Stakeholders } from "../../../../../../models/migration/controls/stakeholders";
+import { cloudNative, legacyPathfinder, review } from "../../../../../../types/constants";
 import { identifiedRisksFilterValidations } from "../../../../../views/reportsTab.view";
 
 let application: Application;

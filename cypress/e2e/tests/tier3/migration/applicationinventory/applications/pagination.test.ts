@@ -22,8 +22,8 @@ import {
     login,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../../utils/utils";
-import { Application } from "../../../../models/migration/applicationinventory/application";
+} from "../../../../../../utils/utils";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
 
 let applicationsList: Array<Application> = [];
 

@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../utils/data_utils";
+import * as data from "../../../../utils/data_utils";
 import {
     clickByText,
     getRandomAnalysisData,
@@ -23,20 +23,20 @@ import {
     login,
     resetURL,
     selectItemsPerPage,
-} from "../../../utils/utils";
-import { CustomMigrationTarget } from "../../models/administration/custom-migration-targets/custom-migration-target";
-import { User } from "../../models/keycloak/users/user";
-import { UserArchitect } from "../../models/keycloak/users/userArchitect";
-import { UserMigrator } from "../../models/keycloak/users/userMigrator";
-import { Analysis } from "../../models/migration/applicationinventory/analysis";
+} from "../../../../utils/utils";
+import { CustomMigrationTarget } from "../../../models/administration/custom-migration-targets/custom-migration-target";
+import { User } from "../../../models/keycloak/users/user";
+import { UserArchitect } from "../../../models/keycloak/users/userArchitect";
+import { UserMigrator } from "../../../models/keycloak/users/userMigrator";
+import { Analysis } from "../../../models/migration/applicationinventory/analysis";
 import {
     AnalysisStatuses,
     analyzeButton,
     button,
     CustomRuleType,
     SEC,
-} from "../../types/constants";
-import { RulesRepositoryFields } from "../../types/types";
+} from "../../../types/constants";
+import { RulesRepositoryFields } from "../../../types/types";
 
 describe(["tier3"], "Custom Migration Targets RBAC operations", function () {
     // Polarion TC 317 & 319

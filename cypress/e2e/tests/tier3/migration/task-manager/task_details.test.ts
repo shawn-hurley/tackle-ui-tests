@@ -22,10 +22,10 @@ import {
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../../utils/utils";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
-import { TaskManager } from "../../../models/migration/task-manager/task-manager";
-import { TaskKind } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
+import { TaskKind } from "../../../../types/constants";
 import { downloadFormatDetails } from "../../../views/common.view";
 
 describe(["@tier3"], "Task details validation", function () {

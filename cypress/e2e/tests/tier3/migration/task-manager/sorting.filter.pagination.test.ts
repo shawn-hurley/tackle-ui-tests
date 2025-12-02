@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { randomWordGenerator } from "../../../../utils/data_utils";
+import { randomWordGenerator } from "../../../../../utils/data_utils";
 import {
     clearAllFilters,
     deleteApplicationTableRows,
@@ -30,10 +30,10 @@ import {
     validatePagination,
     validateSortBy,
     validateTextPresence,
-} from "../../../../utils/utils";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
-import { TaskManager } from "../../../models/migration/task-manager/task-manager";
-import { SEC, TaskFilter, TaskKind, TaskStatus, trTag } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
+import { SEC, TaskFilter, TaskKind, TaskStatus, trTag } from "../../../../types/constants";
 import { TaskManagerColumns, TaskManagerTableHeaders } from "../../../views/taskmanager.view";
 
 describe(["@tier3"], "Filtering, sorting and pagination in Task Manager Page", function () {

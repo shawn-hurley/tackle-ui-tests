@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import {
     clickOnSortButton,
     createMultipleBusinessServices,
@@ -24,10 +24,10 @@ import {
     login,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../../utils/utils";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { BusinessServices } from "../../../../models/migration/controls/businessservices";
-import { businessService, name, SortType, tags } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
+import { businessService, name, SortType, tags } from "../../../../../types/constants";
 
 var applicationsList: Array<Application> = [];
 let businessServicesList: Array<BusinessServices> = [];

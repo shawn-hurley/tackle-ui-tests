@@ -15,17 +15,17 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getDescription, getRandomWord } from "../../../../utils/data_utils";
+import { getDescription, getRandomWord } from "../../../../../utils/data_utils";
 import {
     deleteByList,
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../../utils/utils";
-import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
-import { SubversionConfiguration } from "../../../models/administration/repositories/subversion";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
-import { AnalysisStatuses, CredentialType } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { SubversionConfiguration } from "../../../../models/administration/repositories/subversion";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+import { AnalysisStatuses, CredentialType } from "../../../../types/constants";
 import { analysisDetailsEditor } from "../../../views/analysis.view";
 
 describe(["@tier2"], "Test secure and insecure svn repository analysis", () => {

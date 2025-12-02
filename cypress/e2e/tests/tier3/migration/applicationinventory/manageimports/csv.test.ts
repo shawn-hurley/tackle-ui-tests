@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { cleanupDownloads, login, openManageImportsPage } from "../../../../../utils/utils";
+import { cleanupDownloads, login, openManageImportsPage } from "../../../../../../utils/utils";
 import { kebabMenuItem } from "../../../../views/applicationinventory.view";
 import { manageImportsActionsButton } from "../../../../views/common.view";
 

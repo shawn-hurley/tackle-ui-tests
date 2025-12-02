@@ -15,25 +15,25 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import {
     deleteByList,
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
     writeMavenSettingsFile,
-} from "../../../../../utils/utils";
-import { CredentialsMaven } from "../../../../models/administration/credentials/credentialsMaven";
-import { CredentialsSourceControlKey } from "../../../../models/administration/credentials/credentialsSourceControlKey";
-import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+} from "../../../../../../utils/utils";
+import { CredentialsMaven } from "../../../../../models/administration/credentials/credentialsMaven";
+import { CredentialsSourceControlKey } from "../../../../../models/administration/credentials/credentialsSourceControlKey";
+import { CredentialsSourceControlUsername } from "../../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
 import {
     AnalysisStatuses,
     CredentialType,
     MIN,
     SEC,
     UserCredentials,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import { appDetailsView } from "../../../../views/applicationinventory.view";
 let sourceCredential: CredentialsSourceControlUsername;
 let invalidSourceCredential: CredentialsSourceControlUsername;

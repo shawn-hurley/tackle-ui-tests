@@ -22,10 +22,10 @@ import {
     login,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../../../utils/utils";
-import { SEC } from "../../../../../types/constants";
+} from "../../../../../../../utils/utils";
+import { SEC } from "../../../../../../types/constants";
 
-import { TagCategory } from "../../../../../models/migration/controls/tagcategory";
+import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
 import { appTable } from "../../../../../views/common.view";
 import { tagCategory } from "../../../../../views/tags.view";
 

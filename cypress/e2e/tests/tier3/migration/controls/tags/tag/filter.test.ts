@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import * as data from "../../../../../../utils/data_utils";
+import * as data from "../../../../../../../utils/data_utils";
 import {
     applySelectFilter,
     clearAllFilters,
@@ -23,10 +23,10 @@ import {
     existsWithinRow,
     expandRowDetails,
     login,
-} from "../../../../../../utils/utils";
-import { TagCategory } from "../../../../../models/migration/controls/tagcategory";
-import { Tag } from "../../../../../models/migration/controls/tags";
-import { name, tdTag } from "../../../../../types/constants";
+} from "../../../../../../../utils/utils";
+import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
+import { Tag } from "../../../../../../models/migration/controls/tags";
+import { name, tdTag } from "../../../../../../types/constants";
 
 describe(["@tier3"], "Tags filter validations", function () {
     const tagCategory = new TagCategory(data.getRandomWord(5), data.getColor());

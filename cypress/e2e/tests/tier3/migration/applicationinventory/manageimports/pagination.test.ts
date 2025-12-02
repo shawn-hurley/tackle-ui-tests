@@ -27,9 +27,9 @@ import {
     openManageImportsPage,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../../utils/utils";
+} from "../../../../../../utils/utils";
 
-import { Application } from "../../../../models/migration/applicationinventory/application";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
 import * as commonView from "../../../../views/common.view";
 
 const filePath = "app_import/csv/";

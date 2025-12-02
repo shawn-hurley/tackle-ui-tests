@@ -20,9 +20,9 @@ import {
     getTableColumnData,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../../../utils/utils";
-import { TagCategory } from "../../../../../models/migration/controls/tagcategory";
-import { SortType, tagCategory, tagCount } from "../../../../../types/constants";
+} from "../../../../../../../utils/utils";
+import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
+import { SortType, tagCategory, tagCount } from "../../../../../../types/constants";
 
 describe(["@tier3"], "Tag category sort validations", function () {
     beforeEach("Interceptors", function () {

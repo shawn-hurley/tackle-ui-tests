@@ -15,11 +15,11 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
-import { checkSuccessAlert, deleteByList, exists, login, notExists } from "../../../../utils/utils";
-import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
-import { SourcePlatform } from "../../../models/administration/source-platform/source-platform";
-import { CredentialType, UserCredentials } from "../../../types/constants";
+import * as data from "../../../../../utils/data_utils";
+import { checkSuccessAlert, deleteByList, exists, login, notExists } from "../../../../../utils/utils";
+import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { SourcePlatform } from "../../../../models/administration/source-platform/source-platform";
+import { CredentialType, UserCredentials } from "../../../../types/constants";
 import { successAlertMessage } from "../../../views/common.view";
 import * as selectors from "../../../views/source-platform.view";
 

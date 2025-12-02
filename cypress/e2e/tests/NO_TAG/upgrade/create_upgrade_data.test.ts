@@ -15,28 +15,28 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../utils/data_utils";
-import { getRandomCredentialsData, getRandomUserData } from "../../../utils/data_utils";
+import * as data from "../../../../utils/data_utils";
+import { getRandomCredentialsData, getRandomUserData } from "../../../../utils/data_utils";
 import {
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
     validateMtaVersionInCLI,
     validateMtaVersionInUI,
-} from "../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { CredentialsMaven } from "../../models/administration/credentials/credentialsMaven";
-import { CredentialsSourceControlUsername } from "../../models/administration/credentials/credentialsSourceControlUsername";
-import { User } from "../../models/keycloak/users/user";
-import { UserAdmin } from "../../models/keycloak/users/userAdmin";
-import { Analysis } from "../../models/migration/applicationinventory/analysis";
-import { Archetype } from "../../models/migration/archetypes/archetype";
-import { BusinessServices } from "../../models/migration/controls/businessservices";
-import { Jobfunctions } from "../../models/migration/controls/jobfunctions";
-import { Stakeholdergroups } from "../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../models/migration/controls/stakeholders";
-import { TagCategory } from "../../models/migration/controls/tagcategory";
-import { Tag } from "../../models/migration/controls/tags";
+} from "../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { CredentialsMaven } from "../../../models/administration/credentials/credentialsMaven";
+import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
+import { User } from "../../../models/keycloak/users/user";
+import { UserAdmin } from "../../../models/keycloak/users/userAdmin";
+import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+import { Archetype } from "../../../models/migration/archetypes/archetype";
+import { BusinessServices } from "../../../models/migration/controls/businessservices";
+import { Jobfunctions } from "../../../models/migration/controls/jobfunctions";
+import { Stakeholdergroups } from "../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../models/migration/controls/stakeholders";
+import { TagCategory } from "../../../models/migration/controls/tagcategory";
+import { Tag } from "../../../models/migration/controls/tags";
 import {
     cloudReadinessFilePath,
     cloudReadinessQuestionnaire,
@@ -44,8 +44,8 @@ import {
     legacyPathfinder,
     SEC,
     UserCredentials,
-} from "../../types/constants";
-import { UpgradeData } from "../../types/types";
+} from "../../../types/constants";
+import { UpgradeData } from "../../../types/types";
 
 describe(["@pre-upgrade"], "Creating pre-requisites before an upgrade", () => {
     let mavenCredentialsUsername: CredentialsMaven;

@@ -15,16 +15,16 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../utils/data_utils";
-import { getRulesData } from "../../../utils/data_utils";
-import { getRandomAnalysisData, getRandomApplicationData, login } from "../../../utils/utils";
-import { CredentialsSourceControlUsername } from "../../models/administration/credentials/credentialsSourceControlUsername";
-import { User } from "../../models/keycloak/users/user";
-import { UserArchitect } from "../../models/keycloak/users/userArchitect";
-import { UserMigrator } from "../../models/keycloak/users/userMigrator";
-import { Analysis } from "../../models/migration/applicationinventory/analysis";
-import { AnalysisStatuses, CredentialType, SEC, UserCredentials } from "../../types/constants";
-import { RulesRepositoryFields } from "../../types/types";
+import * as data from "../../../../utils/data_utils";
+import { getRulesData } from "../../../../utils/data_utils";
+import { getRandomAnalysisData, getRandomApplicationData, login } from "../../../../utils/utils";
+import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
+import { User } from "../../../models/keycloak/users/user";
+import { UserArchitect } from "../../../models/keycloak/users/userArchitect";
+import { UserMigrator } from "../../../models/keycloak/users/userMigrator";
+import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+import { AnalysisStatuses, CredentialType, SEC, UserCredentials } from "../../../types/constants";
+import { RulesRepositoryFields } from "../../../types/types";
 
 describe(["@tier2"], "Custom Rules RBAC operations", function () {
     // Polarion TC 318

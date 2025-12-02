@@ -29,7 +29,7 @@ import {
     inputText,
     login,
     selectFormItems,
-} from "../../../../../utils/utils";
+} from "../../../../../../utils/utils";
 import {
     button,
     createNewButton,
@@ -38,7 +38,7 @@ import {
     max250CharsMsg,
     minCharsMsg,
     tdTag,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import {
     applicationBusinessServiceSelect,
     applicationContributorsAction,
@@ -49,12 +49,12 @@ import {
     applicationOwnerInput,
 } from "../../../../views/applicationinventory.view";
 
-import * as data from "../../../../../utils/data_utils";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { BusinessServices } from "../../../../models/migration/controls/businessservices";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
-import { Tag } from "../../../../models/migration/controls/tags";
-import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
+import * as data from "../../../../../../utils/data_utils";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
+import { Tag } from "../../../../../models/migration/controls/tags";
+import { MigrationWave } from "../../../../../models/migration/migration-waves/migration-wave";
 import * as commonView from "../../../../views/common.view";
 
 let businessservicesList: Array<BusinessServices> = [];

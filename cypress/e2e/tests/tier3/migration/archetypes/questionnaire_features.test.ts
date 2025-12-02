@@ -15,24 +15,24 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
 import {
     clickByText,
     clickJs,
     createMultipleStakeholders,
     deleteByList,
     login,
-} from "../../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Assessment } from "../../../models/migration/applicationinventory/assessment";
-import { Archetype } from "../../../models/migration/archetypes/archetype";
-import { Stakeholders } from "../../../models/migration/controls/stakeholders";
+} from "../../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Assessment } from "../../../../models/migration/applicationinventory/assessment";
+import { Archetype } from "../../../../models/migration/archetypes/archetype";
+import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
 import {
     button,
     cloudReadinessFilePath,
     cloudReadinessQuestionnaire,
     legacyPathfinder,
-} from "../../../types/constants";
+} from "../../../../types/constants";
 import { questionBlock } from "../../../views/assessment.view";
 import { nextButton, radioButton, radioButtonLabel, splitItem } from "../../../views/common.view";
 

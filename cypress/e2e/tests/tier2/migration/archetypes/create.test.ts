@@ -15,8 +15,8 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
-import { getRandomWord } from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
+import { getRandomWord } from "../../../../../utils/data_utils";
 import {
     checkSuccessAlert,
     createMultipleStakeholderGroups,
@@ -26,11 +26,11 @@ import {
     exists,
     login,
     notExists,
-} from "../../../../utils/utils";
-import { Archetype } from "../../../models/migration/archetypes/archetype";
-import { Stakeholdergroups } from "../../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../../models/migration/controls/stakeholders";
-import { Tag } from "../../../models/migration/controls/tags";
+} from "../../../../../utils/utils";
+import { Archetype } from "../../../../models/migration/archetypes/archetype";
+import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import { Tag } from "../../../../models/migration/controls/tags";
 import { archetypeTags, criteriaTags } from "../../../views/archetype.view";
 import { successAlertMessage } from "../../../views/common.view";
 

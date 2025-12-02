@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
 import {
     clickOnSortButton,
     createMultipleStakeholders,
@@ -25,18 +25,18 @@ import {
     validateSortBy,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Application } from "../../../models/migration/applicationinventory/application";
-import { Stakeholders } from "../../../models/migration/controls/stakeholders";
-import { Reports } from "../../../models/migration/reports-tab/reports-tab";
+} from "../../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Application } from "../../../../models/migration/applicationinventory/application";
+import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import { Reports } from "../../../../models/migration/reports-tab/reports-tab";
 import {
     cloudReadinessFilePath,
     cloudReadinessQuestionnaire,
     legacyPathfinder,
     SEC,
     SortType,
-} from "../../../types/constants";
+} from "../../../../types/constants";
 import {
     IdentifiedRiskTableHeaders,
     questionnaireNameColumnDataLabel,

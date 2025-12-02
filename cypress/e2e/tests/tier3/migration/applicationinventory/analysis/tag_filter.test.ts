@@ -15,24 +15,24 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import {
     deleteByList,
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../../../utils/utils";
-import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { TagCategory } from "../../../../models/migration/controls/tagcategory";
-import { Tag } from "../../../../models/migration/controls/tags";
+} from "../../../../../../utils/utils";
+import { CredentialsSourceControlUsername } from "../../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { TagCategory } from "../../../../../models/migration/controls/tagcategory";
+import { Tag } from "../../../../../models/migration/controls/tags";
 import {
     AnalysisStatuses,
     CredentialType,
     SEC,
     UserCredentials,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import { appDetailsView } from "../../../../views/applicationinventory.view";
 
 let source_credential: CredentialsSourceControlUsername;

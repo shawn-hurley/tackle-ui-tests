@@ -26,7 +26,7 @@ import {
     exists,
     login,
     selectItemsPerPage,
-} from "../../../../../utils/utils";
+} from "../../../../../../utils/utils";
 import {
     button,
     clearAllFilters,
@@ -36,11 +36,11 @@ import {
     name,
     tdTag,
     trTag,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 
-import { Jobfunctions } from "../../../../models/migration/controls/jobfunctions";
-import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import { Jobfunctions } from "../../../../../models/migration/controls/jobfunctions";
+import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 
 import * as commonView from "../../../../views/common.view";
 import { stakeHoldersTable } from "../../../../views/stakeholders.view";

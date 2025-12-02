@@ -23,9 +23,9 @@ import {
     exists,
     login,
     notExists,
-} from "../../../../utils/utils";
-import { Archetype } from "../../../models/migration/archetypes/archetype";
-import { button, clearAllFilters, name } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { Archetype } from "../../../../models/migration/archetypes/archetype";
+import { button, clearAllFilters, name } from "../../../../types/constants";
 
 let archetypeList: Archetype[];
 

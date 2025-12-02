@@ -27,11 +27,11 @@ import {
     openManageImportsPage,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../../utils/utils";
-import { applicationInventory, SEC, SortType } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { applicationInventory, SEC, SortType } from "../../../../../types/constants";
 import { navMenu } from "../../../../views/menu.view";
 
-import { Application } from "../../../../models/migration/applicationinventory/application";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
 import { csvFileName, date, importStatus, user } from "../../../../views/applicationinventory.view";
 
 const filePath = "app_import/csv/";

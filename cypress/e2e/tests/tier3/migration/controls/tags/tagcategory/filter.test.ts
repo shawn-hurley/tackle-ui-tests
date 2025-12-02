@@ -15,11 +15,11 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { applySearchFilter, clickByText, exists } from "../../../../../../utils/utils";
-import { button, clearAllFilters, color } from "../../../../../types/constants";
+import { applySearchFilter, clickByText, exists } from "../../../../../../../utils/utils";
+import { button, clearAllFilters, color } from "../../../../../../types/constants";
 
-import * as data from "../../../../../../utils/data_utils";
-import { TagCategory } from "../../../../../models/migration/controls/tagcategory";
+import * as data from "../../../../../../../utils/data_utils";
+import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
 
 describe(["@tier3"], "Tag tagCategory filter validations", function () {
     beforeEach("Login", function () {

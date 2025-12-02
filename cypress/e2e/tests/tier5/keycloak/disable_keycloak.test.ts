@@ -19,16 +19,16 @@ import {
     getRandomApplicationData,
     login,
     patchTackleCR,
-} from "../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Analysis } from "../../models/migration/applicationinventory/analysis";
-import { Application } from "../../models/migration/applicationinventory/application";
-import { Stakeholders } from "../../models/migration/controls/stakeholders";
+} from "../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../models/migration/applicationinventory/application";
+import { Stakeholders } from "../../../models/migration/controls/stakeholders";
 import {
     cloudReadinessFilePath,
     cloudReadinessQuestionnaire,
     legacyPathfinder,
-} from "../../types/constants";
+} from "../../../types/constants";
 
 let application1: Analysis;
 let application = new Application(getRandomApplicationData());

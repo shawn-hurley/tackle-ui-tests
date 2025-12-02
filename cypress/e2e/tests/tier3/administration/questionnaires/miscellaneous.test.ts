@@ -1,11 +1,11 @@
 import "cypress-fs";
-import { checkSuccessAlert, cleanupDownloads, click, notExists } from "../../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { checkSuccessAlert, cleanupDownloads, click, notExists } from "../../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
 import {
     cloudNative,
     legacyPathfinder,
     sampleQuestionnaireTemplate,
-} from "../../../types/constants";
+} from "../../../../types/constants";
 import { downloadYamlTemplate } from "../../../views/assessmentquestionnaire.view";
 import { alertTitle } from "../../../views/common.view";
 

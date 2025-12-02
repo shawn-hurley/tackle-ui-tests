@@ -15,12 +15,12 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getJiraConnectionData, getJiraCredentialData } from "../../../../utils/data_utils";
-import { login } from "../../../../utils/utils";
-import { JiraCredentials } from "../../../models/administration/credentials/JiraCredentials";
-import { Jira } from "../../../models/administration/jira-connection/jira";
-import { CredentialType, JiraType } from "../../../types/constants";
-import { JiraConnectionData } from "../../../types/types";
+import { getJiraConnectionData, getJiraCredentialData } from "../../../../../utils/data_utils";
+import { login } from "../../../../../utils/utils";
+import { JiraCredentials } from "../../../../models/administration/credentials/JiraCredentials";
+import { Jira } from "../../../../models/administration/jira-connection/jira";
+import { CredentialType, JiraType } from "../../../../types/constants";
+import { JiraConnectionData } from "../../../../types/types";
 
 describe(["@tier2"], "CRUD operations for Jira Cloud instance", () => {
     const toBeCanceled = true;

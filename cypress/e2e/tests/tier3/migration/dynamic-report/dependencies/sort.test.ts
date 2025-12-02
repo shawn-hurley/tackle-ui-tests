@@ -3,9 +3,9 @@ import {
     getRandomApplicationData,
     login,
     validateSortBy,
-} from "../../../../../utils/utils";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Dependencies } from "../../../../models/migration/dynamic-report/dependencies/dependencies";
+} from "../../../../../../utils/utils";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Dependencies } from "../../../../../models/migration/dynamic-report/dependencies/dependencies";
 
 describe(["@tier3"], "Dependencies sort validations", function () {
     let application: Analysis;

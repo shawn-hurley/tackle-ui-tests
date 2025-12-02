@@ -23,8 +23,8 @@ import {
     login,
     selectItemsPerPage,
     validatePagination,
-} from "../../../../../utils/utils";
-import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
+} from "../../../../../../utils/utils";
+import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
 
 describe(["@tier3"], "Stakeholder groups pagination validations", function () {
     before("Login and Create Test Data", function () {

@@ -24,9 +24,9 @@ import {
     exists,
     importApplication,
     login,
-} from "../../../../../utils/utils";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { ManageImports } from "../../../../models/migration/applicationinventory/manageImports";
+} from "../../../../../../utils/utils";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { ManageImports } from "../../../../../models/migration/applicationinventory/manageImports";
 
 const imports = new ManageImports();
 const filePath = "app_import/csv/";

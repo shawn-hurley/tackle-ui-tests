@@ -23,9 +23,9 @@ import {
     selectColumns,
     validateCheckBoxIsDisabled,
     validateTextPresence,
-} from "../../../../../utils/utils";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { button, cancel, save, trTag } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { button, cancel, save, trTag } from "../../../../../types/constants";
 
 const applicationInventoryTableColumns = [
     "Name",

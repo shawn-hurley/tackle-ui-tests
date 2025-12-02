@@ -21,12 +21,12 @@ import {
     deleteByList,
     getRandomApplicationData,
     login,
-} from "../../../../../utils/utils";
+} from "../../../../../../utils/utils";
 
-import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
-import { cloudNative, legacyPathfinder } from "../../../../types/constants";
+import { AssessmentQuestionnaire } from "../../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
+import { cloudNative, legacyPathfinder } from "../../../../../types/constants";
 import {
     modalBoxDialog,
     modalBoxMessage,

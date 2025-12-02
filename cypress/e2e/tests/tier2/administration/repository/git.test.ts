@@ -15,18 +15,18 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
 import {
     deleteByList,
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
     writeMavenSettingsFile,
-} from "../../../../utils/utils";
-import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
-import { GitConfiguration } from "../../../models/administration/repositories/git";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
-import { CredentialType, UserCredentials } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { GitConfiguration } from "../../../../models/administration/repositories/git";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+import { CredentialType, UserCredentials } from "../../../../types/constants";
 
 let gitConfiguration = new GitConfiguration();
 let source_credential: CredentialsSourceControlUsername;

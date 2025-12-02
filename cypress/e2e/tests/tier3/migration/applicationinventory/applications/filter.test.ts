@@ -29,7 +29,7 @@ import {
     login,
     notExists,
     selectFilter,
-} from "../../../../../utils/utils";
+} from "../../../../../../utils/utils";
 import {
     analysis,
     AnalysisStatuses,
@@ -46,18 +46,18 @@ import {
     subversion,
     tags,
     UserCredentials,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 
-import * as data from "../../../../../utils/data_utils";
-import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { CredentialsMaven } from "../../../../models/administration/credentials/credentialsMaven";
-import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { Archetype } from "../../../../models/migration/archetypes/archetype";
-import { BusinessServices } from "../../../../models/migration/controls/businessservices";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
-import { Tag } from "../../../../models/migration/controls/tags";
+import * as data from "../../../../../../utils/data_utils";
+import { AssessmentQuestionnaire } from "../../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { CredentialsMaven } from "../../../../../models/administration/credentials/credentialsMaven";
+import { CredentialsSourceControlUsername } from "../../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { Archetype } from "../../../../../models/migration/archetypes/archetype";
+import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
+import { Tag } from "../../../../../models/migration/controls/tags";
 import * as commonView from "../../../../views/common.view";
 import { filterDropDownContainer, standardFilter } from "../../../../views/common.view";
 import { searchMenuToggle } from "../../../../views/issue.view";

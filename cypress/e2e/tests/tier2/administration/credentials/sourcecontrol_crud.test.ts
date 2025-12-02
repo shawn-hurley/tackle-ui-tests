@@ -15,11 +15,11 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getRandomCredentialsData } from "../../../../utils/data_utils";
-import { login } from "../../../../utils/utils";
-import { CredentialsSourceControlKey } from "../../../models/administration/credentials/credentialsSourceControlKey";
-import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
-import { CredentialType, UserCredentials } from "../../../types/constants";
+import { getRandomCredentialsData } from "../../../../../utils/data_utils";
+import { login } from "../../../../../utils/utils";
+import { CredentialsSourceControlKey } from "../../../../models/administration/credentials/credentialsSourceControlKey";
+import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { CredentialType, UserCredentials } from "../../../../types/constants";
 
 describe(["@tier2", "@dc", "@interop"], "Validation of Source Control Credentials", () => {
     let scCredsUsername: CredentialsSourceControlUsername;

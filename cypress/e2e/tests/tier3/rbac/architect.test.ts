@@ -15,21 +15,21 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getRandomCredentialsData, getRandomUserData } from "../../../utils/data_utils";
+import { getRandomCredentialsData, getRandomUserData } from "../../../../utils/data_utils";
 import {
     createMultipleStakeholders,
     deleteByList,
     getRandomApplicationData,
     login,
-} from "../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { CredentialsSourceControlUsername } from "../../models/administration/credentials/credentialsSourceControlUsername";
-import { User } from "../../models/keycloak/users/user";
-import { UserArchitect } from "../../models/keycloak/users/userArchitect";
-import { Analysis } from "../../models/migration/applicationinventory/analysis";
-import { Application } from "../../models/migration/applicationinventory/application";
-import { Stakeholders } from "../../models/migration/controls/stakeholders";
-import { CredentialType, legacyPathfinder } from "../../types/constants";
+} from "../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
+import { User } from "../../../models/keycloak/users/user";
+import { UserArchitect } from "../../../models/keycloak/users/userArchitect";
+import { Analysis } from "../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../models/migration/applicationinventory/application";
+import { Stakeholders } from "../../../models/migration/controls/stakeholders";
+import { CredentialType, legacyPathfinder } from "../../../types/constants";
 
 let stakeholders: Array<Stakeholders> = [];
 

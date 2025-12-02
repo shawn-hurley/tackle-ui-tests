@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getJiraCredentialData } from "../../../../utils/data_utils";
+import { getJiraCredentialData } from "../../../../../utils/data_utils";
 import {
     clickOnSortButton,
     createMultipleJiraConnections,
@@ -23,10 +23,10 @@ import {
     login,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../utils/utils";
-import { JiraCredentials } from "../../../models/administration/credentials/JiraCredentials";
-import { Jira } from "../../../models/administration/jira-connection/jira";
-import { CredentialType, instanceName, SortType } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { JiraCredentials } from "../../../../models/administration/credentials/JiraCredentials";
+import { Jira } from "../../../../models/administration/jira-connection/jira";
+import { CredentialType, instanceName, SortType } from "../../../../types/constants";
 import { jiraTable } from "../../../views/jira.view";
 
 describe(["@tier3"], "Jira connections sort validations", function () {

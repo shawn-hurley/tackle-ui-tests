@@ -24,11 +24,11 @@ import {
     login,
     verifySortAsc,
     verifySortDesc,
-} from "../../../../../utils/utils";
-import { name, owner, SortType } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { name, owner, SortType } from "../../../../../types/constants";
 
-import { BusinessServices } from "../../../../models/migration/controls/businessservices";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 
 var stakeholdersList: Array<Stakeholders> = [];
 var businessServicesList: Array<BusinessServices> = [];

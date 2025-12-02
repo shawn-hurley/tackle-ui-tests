@@ -20,9 +20,9 @@ import {
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../../../utils/utils";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { AnalysisStatuses, MIN } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { AnalysisStatuses, MIN } from "../../../../../types/constants";
 
 const applicationsList: Analysis[] = [];
 describe(["@tier1"], "Upload Binary Analysis", () => {

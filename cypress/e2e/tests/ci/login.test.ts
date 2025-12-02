@@ -15,8 +15,8 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { selectUserPerspective } from "../../utils/utils";
-import { migration } from "../types/constants";
+import { selectUserPerspective } from "../../../utils/utils";
+import { migration } from "../../types/constants";
 
 describe(["@ci"], "Log In", () => {
     it("Open the UI and navigate to Migration/Application Inventory page", function () {

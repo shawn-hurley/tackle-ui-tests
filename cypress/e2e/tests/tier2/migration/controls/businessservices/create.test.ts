@@ -23,7 +23,7 @@ import {
     inputText,
     notExists,
     selectUserPerspective,
-} from "../../../../../utils/utils";
+} from "../../../../../../utils/utils";
 import {
     button,
     createNewButton,
@@ -33,16 +33,16 @@ import {
     migration,
     minCharsMsg,
     SEC,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import {
     businessServiceDescriptionInput,
     businessServiceNameInput,
 } from "../../../../views/businessservices.view";
 import * as commonView from "../../../../views/common.view";
 
-import * as data from "../../../../../utils/data_utils";
-import { BusinessServices } from "../../../../models/migration/controls/businessservices";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import * as data from "../../../../../../utils/data_utils";
+import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { stakeHoldersTable } from "../../../../views/stakeholders.view";
 
 describe(["@tier2"], "Business service validations", () => {

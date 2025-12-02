@@ -12,7 +12,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
 import {
     applySearchFilter,
     clickByText,
@@ -24,12 +24,12 @@ import {
     deleteApplicationTableRows,
     deleteByList,
     login,
-} from "../../../../utils/utils";
-import { Application } from "../../../models/migration/applicationinventory/application";
-import { BusinessServices } from "../../../models/migration/controls/businessservices";
-import { Stakeholders } from "../../../models/migration/controls/stakeholders";
-import { Tag } from "../../../models/migration/controls/tags";
-import { MigrationWave } from "../../../models/migration/migration-waves/migration-wave";
+} from "../../../../../utils/utils";
+import { Application } from "../../../../models/migration/applicationinventory/application";
+import { BusinessServices } from "../../../../models/migration/controls/businessservices";
+import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import { Tag } from "../../../../models/migration/controls/tags";
+import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
 import {
     businessServiceLower,
     button,
@@ -37,7 +37,7 @@ import {
     manageApplications,
     name,
     owner,
-} from "../../../types/constants";
+} from "../../../../types/constants";
 
 const now = new Date();
 now.setDate(now.getDate() + 1);

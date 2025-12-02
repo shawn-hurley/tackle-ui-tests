@@ -15,18 +15,18 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { getRandomCredentialsData } from "../../../../../utils/data_utils";
+import { getRandomCredentialsData } from "../../../../../../utils/data_utils";
 import {
     checkSuccessAlert,
     deleteByList,
     getRandomAnalysisData,
     getRandomApplicationData,
-} from "../../../../../utils/utils";
-import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
-import { CredentialType, TaskKind, TaskStatus, UserCredentials } from "../../../../types/constants";
-import { AppIssue } from "../../../../types/types";
+} from "../../../../../../utils/utils";
+import { CredentialsSourceControlUsername } from "../../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { TaskManager } from "../../../../../models/migration/task-manager/task-manager";
+import { CredentialType, TaskKind, TaskStatus, UserCredentials } from "../../../../../types/constants";
+import { AppIssue } from "../../../../../types/types";
 import { infoAlertMessage } from "../../../../views/common.view";
 let applicationsList: Array<Analysis> = [];
 let credentialsList: Array<CredentialsSourceControlUsername> = [];

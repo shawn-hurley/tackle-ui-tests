@@ -15,16 +15,16 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import {
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
     resetURL,
-} from "../../../../../utils/utils";
-import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { CredentialType, UserCredentials } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { CredentialsSourceControlUsername } from "../../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { CredentialType, UserCredentials } from "../../../../../types/constants";
 
 let source_credential;
 let application: Analysis;

@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import {
     clickByText,
     createMultipleApplications,
@@ -25,17 +25,17 @@ import {
     deleteByList,
     login,
     selectFromDropListByText,
-} from "../../../../../utils/utils";
-import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { Archetype } from "../../../../models/migration/archetypes/archetype";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
-import { Tag } from "../../../../models/migration/controls/tags";
+} from "../../../../../../utils/utils";
+import { AssessmentQuestionnaire } from "../../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { Archetype } from "../../../../../models/migration/archetypes/archetype";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
+import { Tag } from "../../../../../models/migration/controls/tags";
 import {
     cloudReadinessFilePath,
     cloudReadinessQuestionnaire,
     legacyPathfinder,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import { customActionButton, ViewArchetypes } from "../../../../views/applicationinventory.view";
 import { archetypeDropdown } from "../../../../views/archetype.view";
 

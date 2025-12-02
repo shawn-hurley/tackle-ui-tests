@@ -21,10 +21,10 @@ import {
     getRandomApplicationData,
     login,
     taskDetailsSanity,
-} from "../../../../../utils/utils";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { Application } from "../../../../models/migration/applicationinventory/application";
-import { AnalysisStatuses, TaskKind } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
+import { AnalysisStatuses, TaskKind } from "../../../../../types/constants";
 
 describe(["@tier3"], "Validate task links from application popover", function () {
     let bookServerApp: Analysis;

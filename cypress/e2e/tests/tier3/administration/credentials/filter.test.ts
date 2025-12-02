@@ -15,9 +15,9 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
+import * as data from "../../../../../utils/data_utils";
 
-import { getRandomCredentialsData } from "../../../../utils/data_utils";
+import { getRandomCredentialsData } from "../../../../../utils/data_utils";
 import {
     clearAllFilters,
     createMultipleCredentials,
@@ -25,10 +25,10 @@ import {
     exists,
     login,
     notExists,
-} from "../../../../utils/utils";
-import { Credentials } from "../../../models/administration/credentials/credentials";
-import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
-import { CredentialType, DefaultCredentialFilter, UserCredentials } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { Credentials } from "../../../../models/administration/credentials/credentials";
+import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
+import { CredentialType, DefaultCredentialFilter, UserCredentials } from "../../../../types/constants";
 
 describe(["@tier3"], "Credentials filter validations", function () {
     let adminUserName = Cypress.env("user");

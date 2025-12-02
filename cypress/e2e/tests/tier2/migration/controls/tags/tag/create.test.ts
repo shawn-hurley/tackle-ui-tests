@@ -15,10 +15,10 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 import * as commonView from "../../../../../../e2e/views/common.view";
-import * as data from "../../../../../../utils/data_utils";
-import { checkSuccessAlert, clickByText, inputText } from "../../../../../../utils/utils";
-import { Tag } from "../../../../../models/migration/controls/tags";
-import { button, duplicateTagName, max120CharsMsg } from "../../../../../types/constants";
+import * as data from "../../../../../../../utils/data_utils";
+import { checkSuccessAlert, clickByText, inputText } from "../../../../../../../utils/utils";
+import { Tag } from "../../../../../../models/migration/controls/tags";
+import { button, duplicateTagName, max120CharsMsg } from "../../../../../../types/constants";
 import {
     createTagButton,
     dropdownMenuToggle,

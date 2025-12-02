@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../utils/data_utils";
+import * as data from "../../../utils/data_utils";
 import {
     checkSuccessAlert,
     createMultipleStakeholderGroups,
@@ -28,18 +28,18 @@ import {
     getRandomApplicationData,
     notExists,
     seedAnalysisData,
-} from "../../utils/utils";
-import { Archetype } from "../models/migration/archetypes/archetype";
-import { BusinessServices } from "../models/migration/controls/businessservices";
-import { Jobfunctions } from "../models/migration/controls/jobfunctions";
-import { Stakeholdergroups } from "../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../models/migration/controls/stakeholders";
-import { Tag } from "../models/migration/controls/tags";
+} from "../../../utils/utils";
+import { Archetype } from "../../models/migration/archetypes/archetype";
+import { BusinessServices } from "../../models/migration/controls/businessservices";
+import { Jobfunctions } from "../../models/migration/controls/jobfunctions";
+import { Stakeholdergroups } from "../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../models/migration/controls/stakeholders";
+import { Tag } from "../../models/migration/controls/tags";
 import { infoAlertMessage, successAlertMessage } from "../views/common.view";
 
-import { AssessmentQuestionnaire } from "../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { Analysis } from "../models/migration/applicationinventory/analysis";
-import { legacyPathfinder } from "../types/constants";
+import { AssessmentQuestionnaire } from "../../models/administration/assessment_questionnaire/assessment_questionnaire";
+import { Analysis } from "../../models/migration/applicationinventory/analysis";
+import { legacyPathfinder } from "../../types/constants";
 
 let stakeholders: Stakeholders[];
 let stakeholderGroups: Stakeholdergroups[];

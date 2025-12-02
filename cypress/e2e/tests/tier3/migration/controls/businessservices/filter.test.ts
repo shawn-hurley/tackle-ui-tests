@@ -21,12 +21,12 @@ import {
     exists,
     login,
     notExists,
-} from "../../../../../utils/utils";
-import { button, clearAllFilters, createdBy, description, name } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { button, clearAllFilters, createdBy, description, name } from "../../../../../types/constants";
 
-import * as data from "../../../../../utils/data_utils";
-import { BusinessServices } from "../../../../models/migration/controls/businessservices";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import * as data from "../../../../../../utils/data_utils";
+import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 
 let businessServicesList: Array<BusinessServices> = [];
 let stakeholdersList: Array<Stakeholders> = [];

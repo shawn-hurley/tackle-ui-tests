@@ -15,16 +15,16 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../utils/data_utils";
-import { createMultipleApplications, login } from "../../../../utils/utils";
-import { JiraCredentials } from "../../../models/administration/credentials/JiraCredentials";
-import { Jira } from "../../../models/administration/jira-connection/jira";
+import * as data from "../../../../../utils/data_utils";
+import { createMultipleApplications, login } from "../../../../../utils/utils";
+import { JiraCredentials } from "../../../../models/administration/credentials/JiraCredentials";
+import { Jira } from "../../../../models/administration/jira-connection/jira";
 import {
     JiraIssue,
     JiraIssueType,
-} from "../../../models/administration/jira-connection/jira-api.interface";
-import { Application } from "../../../models/migration/applicationinventory/application";
-import { MigrationWave } from "../../../models/migration/migration-waves/migration-wave";
+} from "../../../../models/administration/jira-connection/jira-api.interface";
+import { Application } from "../../../../models/migration/applicationinventory/application";
+import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
 import {
     button,
     CredentialType,
@@ -34,7 +34,7 @@ import {
     SEC,
     tdTag,
     trTag,
-} from "../../../types/constants";
+} from "../../../../types/constants";
 import Chainable = Cypress.Chainable;
 
 const now = new Date();

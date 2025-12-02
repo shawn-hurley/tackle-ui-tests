@@ -15,8 +15,8 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { CredentialsProxy } from "../../../models/administration/credentials/credentialsProxy";
-import { CredentialsSourceControlUsername } from "../../../models/administration/credentials/credentialsSourceControlUsername";
+import { CredentialsProxy } from "../../../../models/administration/credentials/credentialsProxy";
+import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
 
 describe(["@tier3"], "Credentials fields validations", function () {
     it("Validate Proxy credential's fields for too short (2 symbols) and too long (120+ symbols) length ", () => {

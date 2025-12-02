@@ -21,9 +21,9 @@ import {
     createMultipleApplications,
     login,
     navigate_to_application_inventory,
-} from "../../../../../utils/utils";
+} from "../../../../../../utils/utils";
 
-import { Application } from "../../../../models/migration/applicationinventory/application";
+import { Application } from "../../../../../models/migration/applicationinventory/application";
 import {
     applicationsActionButton,
     appSelectionButton,

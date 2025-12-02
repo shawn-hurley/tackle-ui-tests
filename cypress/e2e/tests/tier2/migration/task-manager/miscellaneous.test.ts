@@ -25,10 +25,10 @@ import {
     limitPodsByQuota,
     login,
     validateTextPresence,
-} from "../../../../utils/utils";
-import { Analysis } from "../../../models/migration/applicationinventory/analysis";
-import { TaskManager } from "../../../models/migration/task-manager/task-manager";
-import { TaskKind, TaskStatus } from "../../../types/constants";
+} from "../../../../../utils/utils";
+import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
+import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
+import { TaskKind, TaskStatus } from "../../../../types/constants";
 import * as commonView from "../../../views/common.view";
 import { TaskManagerColumns } from "../../../views/taskmanager.view";
 

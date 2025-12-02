@@ -22,11 +22,11 @@ import {
     deleteByList,
     exists,
     login,
-} from "../../../../../utils/utils";
-import { button, clearAllFilters, name } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { button, clearAllFilters, name } from "../../../../../types/constants";
 
-import * as data from "../../../../../utils/data_utils";
-import { Jobfunctions } from "../../../../models/migration/controls/jobfunctions";
+import * as data from "../../../../../../utils/data_utils";
+import { Jobfunctions } from "../../../../../models/migration/controls/jobfunctions";
 
 let jobFunctionsList: Array<Jobfunctions> = [];
 let invalidSearchInput = String(data.getRandomNumber());

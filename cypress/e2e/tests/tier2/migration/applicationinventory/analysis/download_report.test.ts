@@ -20,10 +20,10 @@ import {
     getRandomAnalysisData,
     getRandomApplicationData,
     login,
-} from "../../../../../utils/utils";
-import { GeneralConfig } from "../../../../models/administration/general/generalConfig";
-import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
-import { AnalysisStatuses, ReportTypeSelectors } from "../../../../types/constants";
+} from "../../../../../../utils/utils";
+import { GeneralConfig } from "../../../../../models/administration/general/generalConfig";
+import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
+import { AnalysisStatuses, ReportTypeSelectors } from "../../../../../types/constants";
 
 describe(["@tier2"], "Enable and Download HTML and YAML Reports", function () {
     let sourceApplication: Analysis;

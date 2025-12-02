@@ -15,10 +15,10 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import * as data from "../../../../../utils/data_utils";
-import { exists, expandRowDetails, notExists } from "../../../../../utils/utils";
-import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
-import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
+import * as data from "../../../../../../utils/data_utils";
+import { exists, expandRowDetails, notExists } from "../../../../../../utils/utils";
+import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
+import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { stakeHoldersTable } from "../../../../views/stakeholders.view";
 
 describe(["@tier2"], "Stakeholder group CRUD operations", () => {

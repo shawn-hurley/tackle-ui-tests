@@ -16,15 +16,15 @@ limitations under the License.
 /// <reference types="cypress" />
 
 import * as commonView from "../../../../../e2e/views/common.view";
-import * as data from "../../../../../utils/data_utils";
+import * as data from "../../../../../../utils/data_utils";
 import {
     checkSuccessAlert,
     clickByText,
     exists,
     inputText,
     notExists,
-} from "../../../../../utils/utils";
-import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
+} from "../../../../../../utils/utils";
+import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
 import {
     button,
     createNewButton,
@@ -32,7 +32,7 @@ import {
     max120CharsMsg,
     max250CharsMsg,
     minCharsMsg,
-} from "../../../../types/constants";
+} from "../../../../../types/constants";
 import {
     stakeholdergroupDescriptionInput,
     stakeholdergroupNameInput,
