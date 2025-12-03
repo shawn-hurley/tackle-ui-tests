@@ -55,7 +55,7 @@ let stakeholderList: Stakeholders[];
 let archetype: Archetype;
 let applications: Application[];
 
-describe(["@tier3"], "Miscellaneous Archetype tests", () => {
+describe("Miscellaneous Archetype tests", { tags: ["@tier3"] }, () => {
     before("Import and enable Cloud readiness questionnaire template", function () {
         login();
         cy.visit("/");

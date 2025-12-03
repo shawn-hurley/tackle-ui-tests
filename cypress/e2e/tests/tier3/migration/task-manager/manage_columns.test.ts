@@ -28,7 +28,7 @@ import { button, cancel, save } from "../../../../types/constants";
 import { tableHead } from "../../../../views/common.view";
 import { TaskManagerTableHeaders } from "../../../../views/taskmanager.view";
 
-describe(["@tier3"], "Task manager - table column management validation", function () {
+describe("Task manager - table column management validation", { tags: ["@tier3"] }, function () {
     const taskManagerDefaultColumns = Object.values(TaskManagerTableHeaders).slice(0, 6);
     const columnsToSelect = [
         TaskManagerTableHeaders.pod,

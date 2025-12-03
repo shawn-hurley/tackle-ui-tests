@@ -32,7 +32,7 @@ import { memberCount, name, SortType } from "../../../../../types/constants";
 var stakeholdergroupsList: Array<Stakeholdergroups> = [];
 var stakeholdersList: Array<Stakeholders> = [];
 
-describe(["@tier3"], "Stakeholder groups sort validations", function () {
+describe("Stakeholder groups sort validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

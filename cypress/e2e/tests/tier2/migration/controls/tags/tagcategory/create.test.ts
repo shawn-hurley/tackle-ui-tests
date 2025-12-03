@@ -33,7 +33,7 @@ import {
 import * as data from "../../../../../../../utils/data_utils";
 import * as commonView from "../../../../../../views/common.view";
 
-describe(["@tier2"], "Tag category validations", () => {
+describe("Tag category validations", { tags: ["@tier2"] }, () => {
     it("Tag type field validations", function () {
         TagCategory.openList();
         clickByText(button, createTagCategoryButton);

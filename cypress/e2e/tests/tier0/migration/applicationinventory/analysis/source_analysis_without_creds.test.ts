@@ -32,7 +32,7 @@ let applicationsList: Array<Analysis> = [];
 let credentialsList: Array<CredentialsSourceControlUsername> = [];
 let application: Analysis;
 
-describe(["@tier0"], "Source Analysis without credentials", () => {
+describe("Source Analysis without credentials", { tags: ["@tier0"] }, () => {
     beforeEach("Load data", function () {
         cy.fixture("application").then(function (appData) {
             this.appData = appData;

@@ -47,7 +47,7 @@ import {
 } from "../../../types/constants";
 import { UpgradeData } from "../../../types/types";
 
-describe(["@pre-upgrade"], "Creating pre-requisites before an upgrade", () => {
+describe("Creating pre-requisites before an upgrade", { tags: ["@pre-upgrade"] }, () => {
     let mavenCredentialsUsername: CredentialsMaven;
     let sourceControlUsernameCredentials: CredentialsSourceControlUsername;
     let stakeHolder: Stakeholders;

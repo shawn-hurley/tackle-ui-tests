@@ -36,7 +36,7 @@ import { TaskManager } from "../../../../models/migration/task-manager/task-mana
 import { SEC, TaskFilter, TaskKind, TaskStatus, trTag } from "../../../../types/constants";
 import { TaskManagerColumns, TaskManagerTableHeaders } from "../../../../views/taskmanager.view";
 
-describe(["@tier3"], "Filtering, sorting and pagination in Task Manager Page", function () {
+describe("Filtering, sorting and pagination in Task Manager Page", { tags: ["@tier3"] }, function () {
     const applicationsList: Analysis[] = [];
 
     before("Login", function () {

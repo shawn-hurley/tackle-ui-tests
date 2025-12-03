@@ -40,7 +40,7 @@ const metricName = "konveyor_issues_exported_total";
 let counter: number;
 
 // Automates Polarion TC 337
-describe(["@tier2"], "Custom Metrics - Count the total number of issues exported", function () {
+describe("Custom Metrics - Count the total number of issues exported", { tags: ["@tier2"] }, function () {
     before("Create test data", function () {
         login();
         cy.visit("/");

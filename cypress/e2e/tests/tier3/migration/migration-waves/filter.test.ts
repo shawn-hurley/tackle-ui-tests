@@ -27,7 +27,7 @@ import { MigrationWaveView } from "../../../../views/migration-wave.view";
 
 let migrationWavesList: Array<MigrationWave> = [];
 //Automates Polarion TC 343
-describe(["@tier3"], "Migration waves filter validations", function () {
+describe("Migration waves filter validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

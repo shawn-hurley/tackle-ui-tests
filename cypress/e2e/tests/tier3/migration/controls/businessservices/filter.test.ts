@@ -32,7 +32,7 @@ let businessServicesList: Array<BusinessServices> = [];
 let stakeholdersList: Array<Stakeholders> = [];
 let invalidSearchInput = String(data.getRandomNumber());
 
-describe(["@tier3"], "Business services filter validations", function () {
+describe("Business services filter validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

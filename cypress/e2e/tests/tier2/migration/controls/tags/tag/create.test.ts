@@ -26,7 +26,7 @@ import {
     tagsHelper,
 } from "../../../../../../views/tags.view";
 
-describe(["@tier2"], "Tag validations", () => {
+describe("Tag validations", { tags: ["@tier2"] }, () => {
     beforeEach("Persist session", function () {
         cy.intercept("POST", "/hub/tag*").as("postTag");
         cy.intercept("GET", "/hub/tag*").as("getTag");

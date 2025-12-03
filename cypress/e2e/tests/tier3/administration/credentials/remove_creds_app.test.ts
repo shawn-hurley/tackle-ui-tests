@@ -31,7 +31,7 @@ import { sideKebabMenu } from "../../../../views/applicationinventory.view";
 let source_credential: CredentialsSourceControlUsername;
 let application: Analysis;
 
-describe(["@tier3"], "Validation of credentials being used by app", () => {
+describe("Validation of credentials being used by app", { tags: ["@tier3"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

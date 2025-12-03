@@ -49,7 +49,7 @@ const applications: Application[] = [];
 let migrationWave: MigrationWave;
 let projectName = "";
 
-describe(["@tier3"], "Unlink application from exported migration waves", function () {
+describe("Unlink application from exported migration waves", { tags: ["@tier3"] }, function () {
     before("Create test data", function () {
         if (
             !Cypress.env("jira_atlassian_cloud_project") ||

@@ -36,7 +36,7 @@ const filePath = "app_import/csv/";
 let stakeholders: Stakeholders[];
 let appdata = { name: "Customers" };
 
-describe(["@tier3", "@dc"], "Operations after application import", () => {
+describe("Operations after application import", { tags: ["@tier3", "@dc"] }, () => {
     before("Login and create test data", function () {
         login();
         cy.visit("/");

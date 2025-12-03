@@ -21,7 +21,11 @@ import "cypress-file-upload";
 import "cypress-fs";
 import "cypress-react-selector";
 import "cypress-real-events";
+import { register as registerCypressGrep } from "@cypress/grep";
 require("cy-verify-downloads").addCustomCommand();
+
+// Register grep for test filtering
+registerCypressGrep();
 
 // plugins
 import "cypress-log-filter";

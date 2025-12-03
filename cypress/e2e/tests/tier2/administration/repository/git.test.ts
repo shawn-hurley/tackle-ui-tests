@@ -32,7 +32,7 @@ let gitConfiguration = new GitConfiguration();
 let source_credential: CredentialsSourceControlUsername;
 let applicationsList: Analysis[] = [];
 
-describe(["@tier2"], "Test secure and insecure git repository analysis", () => {
+describe("Test secure and insecure git repository analysis", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

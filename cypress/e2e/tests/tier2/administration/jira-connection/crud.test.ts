@@ -22,7 +22,7 @@ import { Jira } from "../../../../models/administration/jira-connection/jira";
 import { CredentialType, JiraType } from "../../../../types/constants";
 import { JiraConnectionData } from "../../../../types/types";
 
-describe(["@tier2"], "CRUD operations for Jira Cloud instance", () => {
+describe("CRUD operations for Jira Cloud instance", { tags: ["@tier2"] }, () => {
     const toBeCanceled = true;
     const expectedToFail = true;
     const useTestingAccount = true;

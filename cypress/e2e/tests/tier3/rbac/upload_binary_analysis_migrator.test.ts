@@ -27,7 +27,7 @@ import { UserMigrator } from "../../../models/keycloak/users/userMigrator";
 import { Analysis } from "../../../models/migration/applicationinventory/analysis";
 import { AnalysisStatuses, SEC } from "../../../types/constants";
 
-describe(["@tier3"], "Migrator Upload Binary Analysis", () => {
+describe("Migrator Upload Binary Analysis", { tags: ["@tier3"] }, () => {
     const userMigrator = new UserMigrator(getRandomUserData());
     const applications: Analysis[] = [];
 

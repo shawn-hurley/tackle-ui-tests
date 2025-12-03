@@ -23,7 +23,7 @@ import {
 } from "../../../../../utils/utils";
 import { Credentials } from "../../../../models/administration/credentials/credentials";
 
-describe(["@tier3"], "Tag type pagination validations", function () {
+describe("Tag type pagination validations", { tags: ["@tier3"] }, function () {
     let createdCredentialsList: Array<Credentials> = [];
     before("Login and Create Test Data", () => {
         login();

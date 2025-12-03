@@ -25,7 +25,7 @@ import * as selectors from "../../../../views/source-platform.view";
 
 let cloudFoundryCreds: Array<CredentialsSourceControlUsername> = [];
 
-describe(["@tier2"], "CRUD operations on Cloud Foundry Source platform", () => {
+describe("CRUD operations on Cloud Foundry Source platform", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         if (
             !Cypress.env("cloudfoundry_user") ||

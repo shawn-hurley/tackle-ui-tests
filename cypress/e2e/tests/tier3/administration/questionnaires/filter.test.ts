@@ -28,7 +28,7 @@ import {
 const yamlFileName = "questionnaire_import/cloud-native.yaml";
 let assessmentQuestionnaireList: Array<string> = [];
 
-describe(["@tier3"], "Assessment Questionnaire filter validation", () => {
+describe("Assessment Questionnaire filter validation", { tags: ["@tier3"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

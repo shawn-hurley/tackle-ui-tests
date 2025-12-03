@@ -36,7 +36,7 @@ import { csvFileName, date, importStatus, user } from "../../../../../views/appl
 
 const filePath = "app_import/csv/";
 
-describe(["@tier3"], "Manage applications import sort validations", function () {
+describe("Manage applications import sort validations", { tags: ["@tier3"] }, function () {
     before("Login and create test data", function () {
         login();
         cy.visit("/");

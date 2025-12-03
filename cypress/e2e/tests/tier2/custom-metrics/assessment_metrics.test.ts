@@ -31,7 +31,7 @@ let stakeholdersList: Array<Stakeholders> = [];
 let counter: number;
 const fileName = "Legacy Pathfinder";
 
-describe(["@tier2"], "Custom Metrics - The total number of initiated assessments", function () {
+describe("Custom Metrics - The total number of initiated assessments", { tags: ["@tier2"] }, function () {
     before("Login and create test data", function () {
         login();
         cy.visit("/");

@@ -30,7 +30,7 @@ import { CredentialType, legacyPathfinder } from "../../../types/constants";
 const stakeholdersList: Array<Stakeholders> = [];
 const stakeholdersNameList: Array<string> = [];
 
-describe(["@tier3", "@rhsso", "@rhbk"], "Migrator RBAC operations", () => {
+describe("Migrator RBAC operations", { tags: ["@tier3", "@rhsso", "@rhbk"] }, () => {
     let userMigrator = new UserMigrator(getRandomUserData());
     const application = new Application(getRandomApplicationData());
 

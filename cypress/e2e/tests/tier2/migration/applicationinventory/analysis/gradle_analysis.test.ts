@@ -29,7 +29,7 @@ import { AnalysisStatuses } from "../../../../../types/constants";
 
 const applications: Analysis[] = [];
 
-describe(["@tier2"], "Gradle Analysis", () => {
+describe("Gradle Analysis", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

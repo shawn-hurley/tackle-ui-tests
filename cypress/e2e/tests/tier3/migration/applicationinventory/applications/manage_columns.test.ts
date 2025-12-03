@@ -38,7 +38,7 @@ const applicationInventoryTableColumns = [
 ];
 const columnsToShuffleAndTest = [...applicationInventoryTableColumns.slice(1)];
 
-describe(["@tier3"], "Application inventory managing columns validations", function () {
+describe("Application inventory managing columns validations", { tags: ["@tier3"] }, function () {
     //automates polarion MTA537
     before("Login and validate data", function () {
         login();

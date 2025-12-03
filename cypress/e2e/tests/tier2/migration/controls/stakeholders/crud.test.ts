@@ -32,7 +32,7 @@ import { groupsCount, stakeHoldersTable } from "../../../../../views/stakeholder
 let jobFunctionsList: Array<Jobfunctions> = [];
 let stakeholderGroupList: Array<Stakeholdergroups> = [];
 
-describe(["@tier2", "@interop"], "Stakeholder CRUD operations", () => {
+describe("Stakeholder CRUD operations", { tags: ["@tier2", "@interop"] }, () => {
     beforeEach("Interceptors", function () {
         cy.intercept("POST", "/hub/stakeholder*").as("postStakeholder");
         cy.intercept("GET", "/hub/stakeholder*").as("getStakeholders");

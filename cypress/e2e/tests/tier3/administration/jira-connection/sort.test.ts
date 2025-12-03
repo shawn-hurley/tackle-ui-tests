@@ -29,7 +29,7 @@ import { Jira } from "../../../../models/administration/jira-connection/jira";
 import { CredentialType, instanceName, SortType } from "../../../../types/constants";
 import { jiraTable } from "../../../../views/jira.view";
 
-describe(["@tier3"], "Jira connections sort validations", function () {
+describe("Jira connections sort validations", { tags: ["@tier3"] }, function () {
     const useTestingAccount = true;
     let jiraBasicCredential: JiraCredentials;
     let jiraConnectionList: Jira[];

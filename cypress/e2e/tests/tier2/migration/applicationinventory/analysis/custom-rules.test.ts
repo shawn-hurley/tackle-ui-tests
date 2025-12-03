@@ -30,7 +30,7 @@ import { Application } from "../../../../../models/migration/applicationinventor
 import { Issues } from "../../../../../models/migration/dynamic-report/issues/issues";
 import { AnalysisStatuses, CredentialType, UserCredentials } from "../../../../../types/constants";
 
-describe(["@tier2"], "Custom Rules in analyses", function () {
+describe("Custom Rules in analyses", { tags: ["@tier2"] }, function () {
     const applications: Analysis[] = [];
     let tackleTestapp: Analysis;
     let sourceCredential: CredentialsSourceControlUsername;

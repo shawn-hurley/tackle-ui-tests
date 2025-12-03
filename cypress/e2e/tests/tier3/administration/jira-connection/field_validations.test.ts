@@ -37,7 +37,7 @@ let jiraServerConnection: Jira;
 const useTestingAccount = true;
 const isInsecure = true;
 
-describe(["@tier3"], "Field validations for Jira Server connection instance", () => {
+describe("Field validations for Jira Server connection instance", { tags: ["@tier3"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

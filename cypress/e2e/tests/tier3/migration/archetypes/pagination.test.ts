@@ -30,7 +30,7 @@ import {
 import { Archetype } from "../../../../models/migration/archetypes/archetype";
 let archetypeList: Archetype[] = [];
 
-describe(["@tier3"], "Archetypes pagination validations", function () {
+describe("Archetypes pagination validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

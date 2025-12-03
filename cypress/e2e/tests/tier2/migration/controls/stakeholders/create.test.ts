@@ -41,7 +41,7 @@ import {
 import * as data from "../../../../../../utils/data_utils";
 import * as commonView from "../../../../../views/common.view";
 
-describe(["@tier2"], "Stakeholder validations", () => {
+describe("Stakeholder validations", { tags: ["@tier2"] }, () => {
     const stakeholder = new Stakeholders(data.getEmail(), data.getFullName());
 
     beforeEach("Interceptors", function () {

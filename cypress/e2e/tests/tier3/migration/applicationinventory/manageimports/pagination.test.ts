@@ -35,7 +35,7 @@ import * as commonView from "../../../../../views/common.view";
 const filePath = "app_import/csv/";
 const filesToImport = "valid_application_rows.csv";
 
-describe(["@tier3"], "Manage imports pagination validations", function () {
+describe("Manage imports pagination validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         // Import multiple csv files
         function importMultipleFiles(num): void {

@@ -23,7 +23,7 @@ import { ProxyType } from "../../../../../views/proxy.view";
 
 let application: Analysis;
 
-describe(["@tier3"], "Running analysis with incorrect proxy configuration", () => {
+describe("Running analysis with incorrect proxy configuration", { tags: ["@tier3"] }, () => {
     let httpsProxy = new Proxy(getRandomProxyData(), ProxyType.https);
     let httpProxy = new Proxy(getRandomProxyData(), ProxyType.http);
 

@@ -48,7 +48,7 @@ import {
 let stakeholderList: Array<Stakeholders> = [];
 let application: Application;
 
-describe(["@tier3"], "Tests for application questionnaire features", () => {
+describe("Tests for application questionnaire features", { tags: ["@tier3"] }, () => {
     before("Import and enable Cloud readiness questionnaire template", function () {
         login();
         cy.visit("/");

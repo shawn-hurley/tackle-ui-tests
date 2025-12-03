@@ -1,6 +1,7 @@
 import { defineConfig } from "cypress";
 import cypressFastFail from "cypress-fail-fast/plugin";
 import cypressSplit from "cypress-split";
+import { plugin as cypressGrepPlugin } from "@cypress/grep/plugin";
 import decompress from "decompress";
 import esbuildPreprocessor from "./cypress/support/esbuild-preprocessor";
 const { downloadFile } = require("cypress-downloadfile/lib/addPlugin");
@@ -69,6 +70,7 @@ export default defineConfig({
             // enable plugins as needed
             cypressFastFail(on, config);
             cypressSplit(on, config);
+            cypressGrepPlugin(config);
             require("cypress-fs/plugins")(on, config);
 
             // add tasks that execute in node, called by cy.task("functionName", ...)

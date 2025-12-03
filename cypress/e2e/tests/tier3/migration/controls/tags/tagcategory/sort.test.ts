@@ -24,7 +24,7 @@ import {
 import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
 import { SortType, tagCategory, tagCount } from "../../../../../../types/constants";
 
-describe(["@tier3"], "Tag category sort validations", function () {
+describe("Tag category sort validations", { tags: ["@tier3"] }, function () {
     beforeEach("Interceptors", function () {
         cy.intercept("GET", "/hub/tagcategories*").as("getTagCategories");
     });

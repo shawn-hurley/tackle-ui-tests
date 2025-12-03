@@ -25,7 +25,7 @@ import { GeneralConfig } from "../../../../../models/administration/general/gene
 import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
 import { AnalysisStatuses, ReportTypeSelectors } from "../../../../../types/constants";
 
-describe(["@tier2"], "Enable and Download HTML and YAML Reports", function () {
+describe("Enable and Download HTML and YAML Reports", { tags: ["@tier2"] }, function () {
     let sourceApplication: Analysis;
 
     before("Login", function () {

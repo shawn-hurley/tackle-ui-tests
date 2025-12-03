@@ -27,7 +27,7 @@ import { UserArchitect } from "../../../models/keycloak/users/userArchitect";
 import { Analysis } from "../../../models/migration/applicationinventory/analysis";
 import { AnalysisStatuses, SEC } from "../../../types/constants";
 
-describe(["@tier3"], "Architect Upload Binary Analysis", () => {
+describe("Architect Upload Binary Analysis", { tags: ["@tier3"] }, () => {
     const userArchitect = new UserArchitect(getRandomUserData());
     const applications: Analysis[] = [];
 

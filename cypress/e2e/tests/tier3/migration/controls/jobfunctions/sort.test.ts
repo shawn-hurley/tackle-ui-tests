@@ -29,7 +29,7 @@ import { name, SortType } from "../../../../../types/constants";
 
 let jobFunctionsList: Array<Jobfunctions> = [];
 
-describe(["@tier3"], "Job function sorting", function () {
+describe("Job function sorting", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

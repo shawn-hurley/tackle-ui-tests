@@ -45,7 +45,7 @@ import { BusinessServices } from "../../../../../models/migration/controls/busin
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 
-describe(["@tier2"], "Business service validations", () => {
+describe("Business service validations", { tags: ["@tier2"] }, () => {
     it("Business service field validations", function () {
         BusinessServices.openList();
         clickByText(button, createNewButton);

@@ -35,7 +35,7 @@ import { TaskManagerColumns, tasksTable } from "../../../../views/taskmanager.vi
 
 let applicationsList: Array<Application> = [];
 
-describe(["@tier2"], "Task Manager", () => {
+describe("Task Manager", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

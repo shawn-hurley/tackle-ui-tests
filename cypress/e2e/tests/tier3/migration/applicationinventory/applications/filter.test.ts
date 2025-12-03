@@ -70,7 +70,7 @@ let tagList: Array<Tag> = [];
 let stakeholders: Array<Stakeholders> = [];
 const fileName = "Legacy Pathfinder";
 
-describe(["@tier3"], "Application inventory filter validations", function () {
+describe("Application inventory filter validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

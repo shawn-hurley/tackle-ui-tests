@@ -40,7 +40,7 @@ let tagCategory: TagCategory;
 let tag: Tag;
 const applications: Application[] = [];
 
-describe(["@tier3"], "Filter tags on application details page", () => {
+describe("Filter tags on application details page", { tags: ["@tier3"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

@@ -29,7 +29,7 @@ import { button, clearAllFilters, name } from "../../../../types/constants";
 
 let archetypeList: Archetype[];
 
-describe(["@tier3"], "Archetype filter validation", () => {
+describe("Archetype filter validation", { tags: ["@tier3"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

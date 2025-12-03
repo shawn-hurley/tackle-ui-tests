@@ -24,7 +24,7 @@ import { AnalysisStatuses, CredentialType, UserCredentials } from "../../../../.
 let source_credential: CredentialsSourceControlUsername;
 let application: Analysis;
 
-describe(["@tier3"], "Select the list of packages to be analyzed manually", () => {
+describe("Select the list of packages to be analyzed manually", { tags: ["@tier3"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

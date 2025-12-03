@@ -35,7 +35,7 @@ import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 let stakeholdersList: Array<Stakeholders> = [];
 const membersList: Array<string> = [];
 
-describe(["@tier3"], "Stakeholder group linked to stakeholder members", () => {
+describe("Stakeholder group linked to stakeholder members", { tags: ["@tier3"] }, () => {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

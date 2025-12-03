@@ -34,7 +34,7 @@ let application1: Analysis;
 let application = new Application(getRandomApplicationData());
 let stakeholders: Stakeholders[];
 
-describe(["@tier5"], "Perform certain operations after disabling Keycloak", function () {
+describe("Perform certain operations after disabling Keycloak", { tags: ["@tier5"] }, function () {
     // Automates Polarion MTA-293
     before("Disable Keycloak", function () {
         patchTackleCR("keycloak", false);

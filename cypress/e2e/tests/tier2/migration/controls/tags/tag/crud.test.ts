@@ -27,7 +27,7 @@ import { Tag } from "../../../../../../models/migration/controls/tags";
 import * as data from "../../../../../../../utils/data_utils";
 import { tdTag } from "../../../../../../types/constants";
 
-describe(["@tier2"], "Tag CRUD operations", () => {
+describe("Tag CRUD operations", { tags: ["@tier2"] }, () => {
     beforeEach("Login", function () {
         cy.intercept("POST", "/hub/tag*").as("postTag");
         cy.intercept("GET", "/hub/tag*").as("getTag");

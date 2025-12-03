@@ -51,7 +51,7 @@ let tagNames: string[];
 let bookServerApp: Analysis;
 let dayTraderApp: Analysis;
 
-describe(["@tier3"], "Dependency filtering", () => {
+describe("Dependency filtering", { tags: ["@tier3"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

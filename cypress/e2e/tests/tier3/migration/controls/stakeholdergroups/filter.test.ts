@@ -45,7 +45,7 @@ let stakeholdersList: Array<Stakeholders> = [];
 let stakeholderGroupsList: Array<Stakeholdergroups> = [];
 const invalidSearchInput = `${data.getRandomNumber()}`;
 
-describe(["@tier3"], "Stakeholder groups filter validations", function () {
+describe("Stakeholder groups filter validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

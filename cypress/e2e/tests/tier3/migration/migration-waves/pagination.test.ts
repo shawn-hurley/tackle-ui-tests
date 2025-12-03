@@ -27,7 +27,7 @@ import { MigrationWave } from "../../../../models/migration/migration-waves/migr
 
 let migrationWavesList: MigrationWave[] = [];
 
-describe(["@tier3"], "Migration Waves pagination validations", function () {
+describe("Migration Waves pagination validations", { tags: ["@tier3"] }, function () {
     //Automates Polarion TC 357
     before("Login and Create Test Data", function () {
         login();

@@ -46,7 +46,7 @@ let applicationList: Array<Application> = [];
 let tagList: Array<Tag> = [];
 let businessServicesList: Array<BusinessServices> = [];
 
-describe(["@tier3"], "Applications interlinked to tags and business service", () => {
+describe("Applications interlinked to tags and business service", { tags: ["@tier3"] }, () => {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

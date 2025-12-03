@@ -33,7 +33,7 @@ import { mediumRiskDonut } from "../../../../views/reportsTab.view";
 
 let stakeholderList: Array<Stakeholders> = [];
 
-describe(["@tier2"], "Archetype association reports tests", () => {
+describe("Archetype association reports tests", { tags: ["@tier2"] }, () => {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

@@ -29,7 +29,7 @@ import { Analysis } from "../../../../models/migration/applicationinventory/anal
 import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
 import { TaskStatus } from "../../../../types/constants";
 
-describe(["@tier3"], "Cancel task created by another user", function () {
+describe("Cancel task created by another user", { tags: ["@tier3"] }, function () {
     let userMigrator = new UserMigrator(getRandomUserData());
     let userArchitect = new UserArchitect(getRandomUserData());
     let applicationsList: Array<Analysis> = [];

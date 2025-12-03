@@ -26,7 +26,7 @@ import { Analysis } from "../../../models/migration/applicationinventory/analysi
 import { AnalysisStatuses, CredentialType, SEC, UserCredentials } from "../../../types/constants";
 import { RulesRepositoryFields } from "../../../types/types";
 
-describe(["@tier2"], "Custom Rules RBAC operations", function () {
+describe("Custom Rules RBAC operations", { tags: ["@tier2"] }, function () {
     // Polarion TC 318
 
     /**

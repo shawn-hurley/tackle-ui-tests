@@ -60,7 +60,7 @@ import * as commonView from "../../../../../views/common.view";
 let businessservicesList: Array<BusinessServices> = [];
 let stakeHoldersList: Stakeholders[];
 
-describe(["@tier2"], "Application validations", () => {
+describe("Application validations", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

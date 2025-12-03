@@ -26,7 +26,7 @@ import {
 } from "../../../../../../utils/utils";
 import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
 
-describe(["@tier3"], "Business services pagination validations", function () {
+describe("Business services pagination validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

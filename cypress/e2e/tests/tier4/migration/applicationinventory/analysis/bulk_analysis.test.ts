@@ -33,7 +33,7 @@ const metrics = new Metrics();
 const metricName = "konveyor_tasks_initiated_total";
 let counter: number;
 
-describe(["@tier4"], "Bulk analysis and custom metrics afterwards", () => {
+describe("Bulk analysis and custom metrics afterwards", { tags: ["@tier4"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

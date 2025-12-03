@@ -41,7 +41,7 @@ import { labelTagText } from "../../../../../views/applicationinventory.view";
 let applicationList: Application[] = [];
 let credentialsList: Credentials[] = [];
 
-describe(["@tier2"], "Test if application language is discovered and tagged correctly", () => {
+describe("Test if application language is discovered and tagged correctly", { tags: ["@tier2"] }, () => {
     languageDiscoveryData.forEach((data) => {
         it(`test ${data.name.split("-").join(" ")}`, function () {
             // Automates TCs 582, 583, 584, 585, 585, 586, 587

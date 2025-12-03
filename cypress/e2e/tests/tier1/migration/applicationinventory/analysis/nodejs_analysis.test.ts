@@ -23,7 +23,7 @@ import { SEC } from "../../../../../types/constants";
 import { AnalysisLogView } from "../../../../../views/analysis.view";
 
 let applicationsList: Array<Analysis> = [];
-describe(["@tier1"], "Nodejs Analysis", () => {
+describe("Nodejs Analysis", { tags: ["@tier1"] }, () => {
     beforeEach("Load data", function () {
         cy.fixture("application").then(function (appData) {
             this.appData = appData;

@@ -42,7 +42,7 @@ let applications: Application[];
 let stakeholder: Stakeholders;
 
 // Polarion TC 469
-describe(["@tier3"], "Reports Tab filter validations", function () {
+describe("Reports Tab filter validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

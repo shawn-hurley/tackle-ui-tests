@@ -7,7 +7,7 @@ import {
 import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
 import { Dependencies } from "../../../../../models/migration/dynamic-report/dependencies/dependencies";
 
-describe(["@tier3"], "Dependencies sort validations", function () {
+describe("Dependencies sort validations", { tags: ["@tier3"] }, function () {
     let application: Analysis;
     const sortByList = ["Dependency name", "Language", "Found in"];
 

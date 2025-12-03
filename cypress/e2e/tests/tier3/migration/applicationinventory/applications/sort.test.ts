@@ -32,7 +32,7 @@ import { businessService, name, SortType, tags } from "../../../../../types/cons
 var applicationsList: Array<Application> = [];
 let businessServicesList: Array<BusinessServices> = [];
 
-describe(["@tier3"], "Application inventory sort validations", function () {
+describe("Application inventory sort validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

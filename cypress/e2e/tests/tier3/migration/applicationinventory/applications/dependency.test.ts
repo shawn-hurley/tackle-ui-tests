@@ -27,7 +27,7 @@ import { helper } from "../../../../../views/common.view";
 
 let applicationsList: Array<Application> = [];
 
-describe(["@tier3"], "Manage application dependencies", () => {
+describe("Manage application dependencies", { tags: ["@tier3"] }, () => {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

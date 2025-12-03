@@ -32,7 +32,7 @@ let applicationsList: Array<Analysis> = [];
 let source_credential: CredentialsSourceControlUsername;
 let maven_credential: CredentialsMaven;
 
-describe(["@tier2"], "Affected files validation", () => {
+describe("Affected files validation", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

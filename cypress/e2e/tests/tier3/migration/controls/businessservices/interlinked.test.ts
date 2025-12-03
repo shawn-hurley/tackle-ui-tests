@@ -23,7 +23,7 @@ import { businessServices, tdTag } from "../../../../../types/constants";
 import { navTab } from "../../../../../views/menu.view";
 import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 
-describe(["@tier3"], "Business service linked to stakeholder", () => {
+describe("Business service linked to stakeholder", { tags: ["@tier3"] }, () => {
     beforeEach("Login", function () {
         cy.intercept("POST", "/hub/businessservices*").as("postBusinessService");
         cy.intercept("GET", "/hub/businessservices*").as("getBusinessServices");

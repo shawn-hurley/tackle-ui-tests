@@ -24,7 +24,7 @@ import { CredentialType, UserCredentials } from "../../../../types/constants";
 let cfCreds: CredentialsSourceControlUsername;
 let cfInstance: SourcePlatform;
 
-describe(["@tier1"], "Cloud Foundry discovery", () => {
+describe("Cloud Foundry discovery", { tags: ["@tier1"] }, () => {
     before("Verify Cloud Foundry env variables are present", function () {
         if (
             !Cypress.env("cloudfoundry_user") ||

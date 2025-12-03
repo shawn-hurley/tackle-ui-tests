@@ -32,7 +32,7 @@ import { TaskKind, TaskStatus } from "../../../../types/constants";
 import * as commonView from "../../../../views/common.view";
 import { TaskManagerColumns } from "../../../../views/taskmanager.view";
 
-describe(["@tier2"], "Actions in Task Manager Page", function () {
+describe("Actions in Task Manager Page", { tags: ["@tier2"] }, function () {
     const applicationsList: Analysis[] = [];
     let bookServerApp: Analysis;
 

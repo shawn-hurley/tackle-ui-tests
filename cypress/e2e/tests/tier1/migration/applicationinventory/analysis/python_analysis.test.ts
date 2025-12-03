@@ -24,7 +24,7 @@ import { Analysis } from "../../../../../models/migration/applicationinventory/a
 import { Application } from "../../../../../models/migration/applicationinventory/application";
 
 let applicationsList: Array<Analysis> = [];
-describe(["@tier1"], "Python app analysis", () => {
+describe("Python app analysis", { tags: ["@tier1"] }, () => {
     beforeEach("Load data", function () {
         cy.fixture("application").then(function (appData) {
             this.appData = appData;

@@ -40,7 +40,7 @@ const filesToImport = [
 ];
 const invalidSearchInput = String(data.getRandomNumber());
 
-describe(["@tier3"], "Manage applications import filter validations", function () {
+describe("Manage applications import filter validations", { tags: ["@tier3"] }, function () {
     before("Login and create test data", function () {
         login();
         cy.visit("/");

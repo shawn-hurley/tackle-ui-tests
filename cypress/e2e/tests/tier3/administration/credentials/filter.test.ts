@@ -30,7 +30,7 @@ import { Credentials } from "../../../../models/administration/credentials/crede
 import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
 import { CredentialType, DefaultCredentialFilter, UserCredentials } from "../../../../types/constants";
 
-describe(["@tier3"], "Credentials filter validations", function () {
+describe("Credentials filter validations", { tags: ["@tier3"] }, function () {
     let adminUserName = Cypress.env("user");
     let credentialsListByDefaultAdmin: Array<Credentials> = [];
     let invalidSearchInput = String(data.getRandomNumber());

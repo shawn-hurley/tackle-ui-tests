@@ -54,6 +54,7 @@
         "node": ">=20.17"
     },
     "devDependencies": {
+        "@cypress/grep": "^5.0.0",
         "cypress-split": "^1.24.25",
         "mochawesome-merge": "^4.4.1",
         "table": "^6.9.0"

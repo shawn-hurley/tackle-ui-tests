@@ -24,7 +24,7 @@ import {
 import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
 import { Dependencies } from "../../../../../models/migration/dynamic-report/dependencies/dependencies";
 
-describe(["@tier3"], "Bug MTA-4598 - Dependencies pagination validation", function () {
+describe("Bug MTA-4598 - Dependencies pagination validation", { tags: ["@tier3"] }, function () {
     let application: Analysis;
     before("Load data", function () {
         login();

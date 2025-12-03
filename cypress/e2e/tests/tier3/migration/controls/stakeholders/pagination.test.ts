@@ -27,7 +27,7 @@ import {
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { appTable } from "../../../../../views/common.view";
 
-describe(["@tier3"], "Stakeholder pagination validations", function () {
+describe("Stakeholder pagination validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

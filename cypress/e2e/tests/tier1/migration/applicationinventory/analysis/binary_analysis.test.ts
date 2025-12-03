@@ -34,7 +34,7 @@ let maven_credential: CredentialsMaven;
 const mavenConfiguration = new MavenConfiguration();
 let application: Analysis;
 
-describe(["@tier1"], "Binary Analysis", () => {
+describe("Binary Analysis", { tags: ["@tier1"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

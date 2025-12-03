@@ -52,7 +52,7 @@ const sortableColumns = [
 ];
 
 // Automates Polarion TCs 452
-describe(["@tier3"], "Reports tab sort tests", () => {
+describe("Reports tab sort tests", { tags: ["@tier3"] }, () => {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

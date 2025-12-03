@@ -69,7 +69,7 @@ function processApplication(application: Analysis): void {
     application.extractHTMLReport();
 }
 
-describe(["@post-upgrade"], "Performing post-upgrade validations", () => {
+describe("Performing post-upgrade validations", { tags: ["@post-upgrade"] }, () => {
     const expectedMtaVersion = Cypress.env("mtaVersion");
     before("Login as created admin user", function () {
         cy.fixture("upgrade-data").then((upgradeData: UpgradeData) => {

@@ -30,7 +30,7 @@ let maven_credential: CredentialsMaven;
 const sourceApplicationsList: Array<Analysis> = [];
 const mavenApplicationsList: Array<Analysis> = [];
 
-describe(["@tier2"], "Manage credentials source analysis", () => {
+describe("Manage credentials source analysis", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

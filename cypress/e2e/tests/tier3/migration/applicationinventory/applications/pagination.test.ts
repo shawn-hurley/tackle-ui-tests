@@ -27,7 +27,7 @@ import { Application } from "../../../../../models/migration/applicationinventor
 
 let applicationsList: Array<Application> = [];
 
-describe(["@tier3"], "Application inventory pagination validations", function () {
+describe("Application inventory pagination validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

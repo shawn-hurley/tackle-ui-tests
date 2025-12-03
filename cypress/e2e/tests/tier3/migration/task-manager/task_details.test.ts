@@ -28,7 +28,7 @@ import { TaskManager } from "../../../../models/migration/task-manager/task-mana
 import { TaskKind } from "../../../../types/constants";
 import { downloadFormatDetails } from "../../../../views/common.view";
 
-describe(["@tier3"], "Task details validation", function () {
+describe("Task details validation", { tags: ["@tier3"] }, function () {
     let application: Analysis;
     before("Login", function () {
         login();

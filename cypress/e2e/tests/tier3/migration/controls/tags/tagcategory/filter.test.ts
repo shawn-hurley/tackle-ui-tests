@@ -21,7 +21,7 @@ import { button, clearAllFilters, color } from "../../../../../../types/constant
 import * as data from "../../../../../../../utils/data_utils";
 import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
 
-describe(["@tier3"], "Tag tagCategory filter validations", function () {
+describe("Tag tagCategory filter validations", { tags: ["@tier3"] }, function () {
     beforeEach("Login", function () {
         cy.intercept("GET", "/hub/tag-category*").as("getTagCategories");
     });

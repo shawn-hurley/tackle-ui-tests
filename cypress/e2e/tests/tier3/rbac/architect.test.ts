@@ -33,7 +33,7 @@ import { CredentialType, legacyPathfinder } from "../../../types/constants";
 
 let stakeholders: Array<Stakeholders> = [];
 
-describe(["@tier3", "@rhsso", "@rhbk"], "Architect RBAC operations", function () {
+describe("Architect RBAC operations", { tags: ["@tier3", "@rhsso", "@rhbk"] }, function () {
     // https://issues.redhat.com/browse/MTA-5631
     let userArchitect = new UserArchitect(getRandomUserData());
     const application = new Application(getRandomApplicationData());

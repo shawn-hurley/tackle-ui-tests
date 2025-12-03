@@ -28,7 +28,7 @@ import { Analysis } from "../../../../models/migration/applicationinventory/anal
 import { AnalysisStatuses, CredentialType } from "../../../../types/constants";
 import { analysisDetailsEditor } from "../../../../views/analysis.view";
 
-describe(["@tier2"], "Test secure and insecure svn repository analysis", () => {
+describe("Test secure and insecure svn repository analysis", { tags: ["@tier2"] }, () => {
     const subversionConfiguration = new SubversionConfiguration();
     let sourceCredential: CredentialsSourceControlUsername;
     const applicationsList: Analysis[] = [];

@@ -25,7 +25,7 @@ import { Analysis } from "../../../../../models/migration/applicationinventory/a
 import { AnalysisStatuses, MIN } from "../../../../../types/constants";
 
 const applicationsList: Analysis[] = [];
-describe(["@tier1"], "Upload Binary Analysis", () => {
+describe("Upload Binary Analysis", { tags: ["@tier1"] }, () => {
     beforeEach("Load data", function () {
         cy.fixture("application").then(function (appData) {
             this.appData = appData;

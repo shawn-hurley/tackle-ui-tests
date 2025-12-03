@@ -19,7 +19,7 @@ import { cleanupDownloads, login, openManageImportsPage } from "../../../../../.
 import { kebabMenuItem } from "../../../../../views/applicationinventory.view";
 import { manageImportsActionsButton } from "../../../../../views/common.view";
 
-describe(["@tier3"], "Manage imports tests", function () {
+describe("Manage imports tests", { tags: ["@tier3"] }, function () {
     before("Login", function () {
         login();
         cy.visit("/");

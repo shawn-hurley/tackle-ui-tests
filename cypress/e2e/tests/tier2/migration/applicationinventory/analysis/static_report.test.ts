@@ -47,7 +47,7 @@ import { dependencies, issues, technologies } from "../../../../../views/common.
 
 const appName = "Downloaded-Report-Test-App";
 
-describe(["@tier2"], "Prepare Downloaded Report", function () {
+describe("Prepare Downloaded Report", { tags: ["@tier2"] }, function () {
     it("Download and extract report", function () {
         cy.fixture("application").then(function (appData) {
             cy.fixture("analysis").then(function (analysisData) {
@@ -74,7 +74,7 @@ describe(["@tier2"], "Prepare Downloaded Report", function () {
     });
 });
 
-describe(["@tier2"], "Test Static Report UI", { baseUrl: null }, function () {
+describe("Test Static Report UI", { tags: ["@tier2"] }, { baseUrl: null }, function () {
     const reportData = {
         name: "Adopt Maven Surefire plugin",
         category: "mandatory",
@@ -131,7 +131,7 @@ describe(["@tier2"], "Test Static Report UI", { baseUrl: null }, function () {
     });
 });
 
-describe(["@tier2"], "Delete Downloaded Report Data", function () {
+describe("Delete Downloaded Report Data", { tags: ["@tier2"] }, function () {
     it("Delete Downloaded Report Data", function () {
         login();
         cy.visit("/");

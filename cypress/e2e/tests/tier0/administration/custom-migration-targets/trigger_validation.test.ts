@@ -29,7 +29,7 @@ import { AnalysisStatuses, Languages } from "../../../../types/constants";
 import { RulesRepositoryFields } from "../../../../types/types";
 
 // Automates Bug MTA-3330 | Polarion TC MTA-597
-describe(["@tier0"], "Custom Migration Targets rules trigger validation", () => {
+describe("Custom Migration Targets rules trigger validation", { tags: ["@tier0"] }, () => {
     let target: CustomMigrationTarget;
     const applications: Analysis[] = [];
     const EXPECTED_EFFORT = 5;

@@ -40,7 +40,7 @@ let invalidSourceCredential: CredentialsSourceControlUsername;
 let mavenCredential: CredentialsMaven;
 let applicationsList: Array<Analysis> = [];
 
-describe(["@tier1"], "Source Analysis", () => {
+describe("Source Analysis", { tags: ["@tier1"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

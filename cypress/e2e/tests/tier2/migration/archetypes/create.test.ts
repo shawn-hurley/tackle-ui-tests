@@ -38,7 +38,7 @@ let stakeholders: Stakeholders[];
 let stakeholderGroups: Stakeholdergroups[];
 let tags: Tag[];
 
-describe(["@tier2"], "Archetype CRUD operations", () => {
+describe("Archetype CRUD operations", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

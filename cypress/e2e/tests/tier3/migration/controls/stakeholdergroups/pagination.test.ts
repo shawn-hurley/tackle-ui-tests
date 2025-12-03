@@ -26,7 +26,7 @@ import {
 } from "../../../../../../utils/utils";
 import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
 
-describe(["@tier3"], "Stakeholder groups pagination validations", function () {
+describe("Stakeholder groups pagination validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

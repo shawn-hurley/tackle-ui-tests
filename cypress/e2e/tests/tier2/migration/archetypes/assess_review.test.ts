@@ -32,7 +32,7 @@ import { legacyPathfinder } from "../../../../types/constants";
 let stakeholders: Stakeholders[];
 let tags: Tag[];
 
-describe(["@tier2"], "Archetype assessment and review tests", () => {
+describe("Archetype assessment and review tests", { tags: ["@tier2"] }, () => {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

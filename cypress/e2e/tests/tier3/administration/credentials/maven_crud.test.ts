@@ -20,7 +20,7 @@ import { deleteByList } from "../../../../../utils/utils";
 import { CredentialsMaven } from "../../../../models/administration/credentials/credentialsMaven";
 import { CredentialType } from "../../../../types/constants";
 
-describe(["@tier3"], "Validation of Maven Credentials", () => {
+describe("Validation of Maven Credentials", { tags: ["@tier3"] }, () => {
     let mavenCredentials: CredentialsMaven[] = [];
 
     it("Creating Maven credentials", () => {

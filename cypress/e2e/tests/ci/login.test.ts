@@ -18,7 +18,7 @@ limitations under the License.
 import { selectUserPerspective } from "../../../utils/utils";
 import { migration } from "../../types/constants";
 
-describe(["@ci"], "Log In", () => {
+describe("Log In", { tags: ["@ci"] }, () => {
     it("Open the UI and navigate to Migration/Application Inventory page", function () {
         selectUserPerspective(migration);
         cy.get("h1").should("contain", "Application inventory");

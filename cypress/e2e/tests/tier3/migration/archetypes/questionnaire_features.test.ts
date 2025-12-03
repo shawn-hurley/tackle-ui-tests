@@ -39,7 +39,7 @@ import { nextButton, radioButton, radioButtonLabel, splitItem } from "../../../.
 let stakeholderList: Array<Stakeholders> = [];
 let archetype: Archetype;
 
-describe(["@tier3"], "Tests for archetype questionnaire features", () => {
+describe("Tests for archetype questionnaire features", { tags: ["@tier3"] }, () => {
     before("Import and enable Cloud readiness questionnaire template", function () {
         login();
         cy.visit("/");

@@ -43,7 +43,7 @@ let applicationList: Application[];
 let inheritanceTags: Tag[];
 let associationTags: Tag[];
 let stakeholders: Stakeholders[];
-describe(["@tier3"], "Tests related to application-archetype association ", () => {
+describe("Tests related to application-archetype association ", { tags: ["@tier3"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

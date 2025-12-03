@@ -37,7 +37,7 @@ import { confirmCancelButton } from "../../../../../views/common.view";
 let stakeholders: Stakeholders[];
 const yamlFile = "questionnaire_import/cloud-native.yaml";
 
-describe(["@tier2"], "Application assessment and review tests", () => {
+describe("Application assessment and review tests", { tags: ["@tier2"] }, () => {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

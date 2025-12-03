@@ -36,7 +36,7 @@ let tags: Tag[];
 let stakeholders: Stakeholders[];
 let application: Application[];
 
-describe(["@tier2"], "Perform assessment and review as Architect", function () {
+describe("Perform assessment and review as Architect", { tags: ["@tier2"] }, function () {
     const architect = new UserArchitect(data.getRandomUserData());
 
     before("Create test data", function () {

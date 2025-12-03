@@ -45,7 +45,7 @@ let stakeholders: Stakeholders[];
 let stakeholderGroups: Stakeholdergroups[];
 let tags: Tag[];
 
-describe(["@ci"], "UI Sanity Tests", () => {
+describe("UI Sanity Tests", { tags: ["@ci"] }, () => {
     beforeEach("Interceptors", function () {
         cy.intercept("POST", "/hub/businessservices*").as("postBusinessService");
         cy.intercept("GET", "/hub/businessservices*").as("getBusinessService");

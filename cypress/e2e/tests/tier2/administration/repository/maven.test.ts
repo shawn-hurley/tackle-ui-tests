@@ -38,7 +38,7 @@ let source_credential;
 let maven_credential;
 let applicationsList: Analysis[] = [];
 
-describe(["@tier2"], "Test secure and insecure maven repository analysis", () => {
+describe("Test secure and insecure maven repository analysis", { tags: ["@tier2"] }, () => {
     before("Login", function () {
         login();
         cy.visit("/");

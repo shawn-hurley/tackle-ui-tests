@@ -22,7 +22,7 @@ import { Tag } from "../../../../../../models/migration/controls/tags";
 import * as data from "../../../../../../../utils/data_utils";
 import { color, tagCount } from "../../../../../../types/constants";
 
-describe(["@tier2"], "Tag tagCategory CRUD operations", () => {
+describe("Tag tagCategory CRUD operations", { tags: ["@tier2"] }, () => {
     it("Tag Category CRUD", function () {
         const tagCategory = new TagCategory(data.getRandomWord(8), data.getColor());
         tagCategory.create();

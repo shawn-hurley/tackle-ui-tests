@@ -22,7 +22,7 @@ import { Analysis } from "../../../../models/migration/applicationinventory/anal
 let application: Analysis;
 const tasksKindsList = ["language-discovery", "tech-discovery", "analyzer"];
 
-describe(["@tier2"], "Verify 'Tasks' Tab Displays Expected Task Kinds", () => {
+describe("Verify ", { tags: ["@tier2"] }Tasks' Tab Displays Expected Task Kinds", () => {
     before("Login", function () {
         login();
         cy.fixture("application").then(function (appData) {

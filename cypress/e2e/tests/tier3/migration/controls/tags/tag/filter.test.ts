@@ -28,7 +28,7 @@ import { TagCategory } from "../../../../../../models/migration/controls/tagcate
 import { Tag } from "../../../../../../models/migration/controls/tags";
 import { name, tdTag } from "../../../../../../types/constants";
 
-describe(["@tier3"], "Tags filter validations", function () {
+describe("Tags filter validations", { tags: ["@tier3"] }, function () {
     const tagCategory = new TagCategory(data.getRandomWord(5), data.getColor());
     const tag = new Tag(data.getRandomWord(5), tagCategory.name);
 

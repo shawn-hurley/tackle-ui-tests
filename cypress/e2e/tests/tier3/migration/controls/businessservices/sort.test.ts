@@ -33,7 +33,7 @@ import { Stakeholders } from "../../../../../models/migration/controls/stakehold
 var stakeholdersList: Array<Stakeholders> = [];
 var businessServicesList: Array<BusinessServices> = [];
 
-describe(["@tier3"], "Business services sort validations", function () {
+describe("Business services sort validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

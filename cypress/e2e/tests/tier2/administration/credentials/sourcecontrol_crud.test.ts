@@ -21,7 +21,7 @@ import { CredentialsSourceControlKey } from "../../../../models/administration/c
 import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
 import { CredentialType, UserCredentials } from "../../../../types/constants";
 
-describe(["@tier2", "@dc", "@interop"], "Validation of Source Control Credentials", () => {
+describe("Validation of Source Control Credentials", { tags: ["@tier2", "@dc", "@interop"] }, () => {
     let scCredsUsername: CredentialsSourceControlUsername;
     let scCredsKey: CredentialsSourceControlKey;
     let defaultScCredsUsername: CredentialsSourceControlUsername;

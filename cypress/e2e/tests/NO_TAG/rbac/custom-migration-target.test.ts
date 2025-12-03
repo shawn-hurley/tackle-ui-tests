@@ -38,7 +38,7 @@ import {
 } from "../../../types/constants";
 import { RulesRepositoryFields } from "../../../types/types";
 
-describe(["tier3"], "Custom Migration Targets RBAC operations", function () {
+describe("Custom Migration Targets RBAC operations", { tags: ["tier3"] }, function () {
     // Polarion TC 317 & 319
     let analysis: Analysis;
     let target: CustomMigrationTarget;

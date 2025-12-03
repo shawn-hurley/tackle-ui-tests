@@ -18,7 +18,7 @@ limitations under the License.
 import { CredentialsProxy } from "../../../../models/administration/credentials/credentialsProxy";
 import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
 
-describe(["@tier3"], "Credentials fields validations", function () {
+describe("Credentials fields validations", { tags: ["@tier3"] }, function () {
     it("Validate Proxy credential's fields for too short (2 symbols) and too long (120+ symbols) length ", () => {
         CredentialsProxy.validateFields();
     });

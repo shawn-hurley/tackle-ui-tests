@@ -31,7 +31,7 @@ import { Jobfunctions } from "../../../../../models/migration/controls/jobfuncti
 let jobFunctionsList: Array<Jobfunctions> = [];
 let invalidSearchInput = String(data.getRandomNumber());
 
-describe(["@tier2"], "Job function filter validations", function () {
+describe("Job function filter validations", { tags: ["@tier2"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

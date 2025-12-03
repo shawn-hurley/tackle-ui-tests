@@ -45,7 +45,7 @@ const now = new Date();
 const end = new Date(now.getTime());
 end.setFullYear(end.getFullYear() + 1);
 
-describe(["@tier0", "interop"], "Migration Waves CRUD operations", () => {
+describe("Migration Waves CRUD operations", { tags: ["@tier0", "interop"] }, () => {
     before("Create test data", () => {
         login();
         cy.visit("/");

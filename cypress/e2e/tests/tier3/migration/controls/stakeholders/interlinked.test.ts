@@ -34,7 +34,7 @@ import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 var stakeholdergroupsList: Array<Stakeholdergroups> = [];
 var stakeholdergroupNames: Array<string> = [];
 
-describe(["@tier3"], "Stakeholder linked to stakeholder groups and job function", () => {
+describe("Stakeholder linked to stakeholder groups and job function", { tags: ["@tier3"] }, () => {
     beforeEach("Interceptors", function () {
         // Interceptors for stakeholder groups
         cy.intercept("POST", "/hub/stakeholdergroups*").as("postStakeholdergroups");

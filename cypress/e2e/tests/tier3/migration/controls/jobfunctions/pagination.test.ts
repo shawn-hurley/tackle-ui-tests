@@ -26,7 +26,7 @@ import {
 import { Jobfunctions } from "../../../../../models/migration/controls/jobfunctions";
 let jobFunctionsList: Array<Jobfunctions> = [];
 
-describe(["@tier3"], "Job functions pagination validations", function () {
+describe("Job functions pagination validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");

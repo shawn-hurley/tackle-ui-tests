@@ -29,7 +29,7 @@ import { TagCategory } from "../../../../../../models/migration/controls/tagcate
 import { appTable } from "../../../../../../views/common.view";
 import { tagCategory } from "../../../../../../views/tags.view";
 
-describe(["@tier3"], "Tag category pagination validations", function () {
+describe("Tag category pagination validations", { tags: ["@tier3"] }, function () {
     before("Login and Create Test Data", function () {
         login();
         cy.visit("/");
