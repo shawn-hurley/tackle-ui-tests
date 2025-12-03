@@ -40,7 +40,7 @@ import {
 import {
     IdentifiedRiskTableHeaders,
     questionnaireNameColumnDataLabel,
-} from "../../../views/reportsTab.view";
+} from "../../../../views/reportsTab.view";
 
 let stakeholder: Stakeholders;
 let application: Application;

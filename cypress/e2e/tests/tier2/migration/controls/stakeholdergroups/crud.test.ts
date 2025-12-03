@@ -19,7 +19,7 @@ import * as data from "../../../../../../utils/data_utils";
 import { exists, expandRowDetails, notExists } from "../../../../../../utils/utils";
 import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
-import { stakeHoldersTable } from "../../../../views/stakeholders.view";
+import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 
 describe(["@tier2"], "Stakeholder group CRUD operations", () => {
     const stakeholder = new Stakeholders(data.getEmail(), data.getFullName());

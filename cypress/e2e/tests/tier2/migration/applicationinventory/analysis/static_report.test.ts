@@ -27,7 +27,7 @@ import {
 import { GeneralConfig } from "../../../../../models/administration/general/generalConfig";
 import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
 import { AnalysisStatuses, ReportTypeSelectors, tdTag } from "../../../../../types/constants";
-import { dependencies, issues, technologies } from "../../../../views/common.view";
+import { dependencies, issues, technologies } from "../../../../../views/common.view";
 
 /**
  *

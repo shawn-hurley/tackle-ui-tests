@@ -31,8 +31,8 @@ import { Archetype } from "../../../../models/migration/archetypes/archetype";
 import { Stakeholdergroups } from "../../../../models/migration/controls/stakeholdergroups";
 import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
 import { Tag } from "../../../../models/migration/controls/tags";
-import { archetypeTags, criteriaTags } from "../../../views/archetype.view";
-import { successAlertMessage } from "../../../views/common.view";
+import { archetypeTags, criteriaTags } from "../../../../views/archetype.view";
+import { successAlertMessage } from "../../../../views/common.view";
 
 let stakeholders: Stakeholders[];
 let stakeholderGroups: Stakeholdergroups[];

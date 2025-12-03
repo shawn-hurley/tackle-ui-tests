@@ -29,12 +29,12 @@ import { Stakeholdergroups } from "../../../../models/migration/controls/stakeho
 import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
 import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
 import { SEC } from "../../../../types/constants";
-import { successAlertMessage } from "../../../views/common.view";
+import { successAlertMessage } from "../../../../views/common.view";
 import {
     getSpecialMigrationWavesTableSelector,
     MigrationWavesSpecialColumns,
     MigrationWaveView,
-} from "../../../views/migration-wave.view";
+} from "../../../../views/migration-wave.view";
 
 let stakeHolders: Stakeholders[];
 let stakeHolderGroups: Stakeholdergroups[];

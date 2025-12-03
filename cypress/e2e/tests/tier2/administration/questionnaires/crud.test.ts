@@ -5,7 +5,7 @@ import {
     login,
 } from "../../../../../utils/utils";
 import { AssessmentQuestionnaire } from "../../../../models/administration/assessment_questionnaire/assessment_questionnaire";
-import { alertTitle, errorAlertMessage, successAlertMessage } from "../../../views/common.view";
+import { alertTitle, errorAlertMessage, successAlertMessage } from "../../../../views/common.view";
 
 const yamlFileName = "questionnaire_import/cloud-native.yaml";
 const importedQuestionnaire = "Cloud Native";

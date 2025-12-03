@@ -32,7 +32,7 @@ import { Application } from "../../../../../../models/migration/applicationinven
 import { Archetype } from "../../../../../../models/migration/archetypes/archetype";
 import { Stakeholders } from "../../../../../../models/migration/controls/stakeholders";
 import { cloudNative, legacyPathfinder, review } from "../../../../../../types/constants";
-import { identifiedRisksFilterValidations } from "../../../../../views/reportsTab.view";
+import { identifiedRisksFilterValidations } from "../../../../../../views/reportsTab.view";
 
 let application: Application;
 let stakeholder: Stakeholders;

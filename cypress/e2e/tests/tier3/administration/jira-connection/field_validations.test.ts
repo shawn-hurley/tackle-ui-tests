@@ -29,7 +29,7 @@ import { JiraCredentials } from "../../../../models/administration/credentials/J
 import { Jira } from "../../../../models/administration/jira-connection/jira";
 import { CredentialType, JiraType } from "../../../../types/constants";
 import { JiraConnectionData } from "../../../../types/types";
-import { createJiraButton, instanceName, instanceUrl } from "../../../views/jira.view";
+import { createJiraButton, instanceName, instanceUrl } from "../../../../views/jira.view";
 
 let jiraBasicCredential: JiraCredentials;
 let jiraServerConnectionData: JiraConnectionData;

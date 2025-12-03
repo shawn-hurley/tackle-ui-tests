@@ -22,8 +22,8 @@ import {
     cyclicDependenciesErrorMsg,
     northdependenciesDropdownBtn,
     southdependenciesDropdownBtn,
-} from "../../../../views/applicationinventory.view";
-import { helper } from "../../../../views/common.view";
+} from "../../../../../views/applicationinventory.view";
+import { helper } from "../../../../../views/common.view";
 
 let applicationsList: Array<Application> = [];
 

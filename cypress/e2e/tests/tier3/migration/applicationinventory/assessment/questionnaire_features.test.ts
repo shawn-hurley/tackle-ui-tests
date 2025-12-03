@@ -36,14 +36,14 @@ import {
     legacyPathfinder,
     SEC,
 } from "../../../../../types/constants";
-import { questionBlock } from "../../../../views/assessment.view";
+import { questionBlock } from "../../../../../views/assessment.view";
 import {
     confirmButton,
     nextButton,
     radioButton,
     radioButtonLabel,
     splitItem,
-} from "../../../../views/common.view";
+} from "../../../../../views/common.view";
 
 let stakeholderList: Array<Stakeholders> = [];
 let application: Application;

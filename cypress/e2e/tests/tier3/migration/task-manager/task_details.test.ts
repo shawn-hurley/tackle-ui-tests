@@ -26,7 +26,7 @@ import {
 import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
 import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
 import { TaskKind } from "../../../../types/constants";
-import { downloadFormatDetails } from "../../../views/common.view";
+import { downloadFormatDetails } from "../../../../views/common.view";
 
 describe(["@tier3"], "Task details validation", function () {
     let application: Analysis;

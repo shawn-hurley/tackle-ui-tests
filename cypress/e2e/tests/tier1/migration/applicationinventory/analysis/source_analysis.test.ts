@@ -34,7 +34,7 @@ import {
     SEC,
     UserCredentials,
 } from "../../../../../types/constants";
-import { appDetailsView } from "../../../../views/applicationinventory.view";
+import { appDetailsView } from "../../../../../views/applicationinventory.view";
 let sourceCredential: CredentialsSourceControlUsername;
 let invalidSourceCredential: CredentialsSourceControlUsername;
 let mavenCredential: CredentialsMaven;

@@ -20,7 +20,7 @@ import {
 import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
 import { Application } from "../../../../../models/migration/applicationinventory/application";
 import { SEC } from "../../../../../types/constants";
-import { AnalysisLogView } from "../../../../views/analysis.view";
+import { AnalysisLogView } from "../../../../../views/analysis.view";
 
 let applicationsList: Array<Analysis> = [];
 describe(["@tier1"], "Nodejs Analysis", () => {

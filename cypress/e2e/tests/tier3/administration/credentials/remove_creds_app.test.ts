@@ -26,7 +26,7 @@ import { Credentials } from "../../../../models/administration/credentials/crede
 import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
 import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
 import { CredentialType, trTag, UserCredentials } from "../../../../types/constants";
-import { sideKebabMenu } from "../../../views/applicationinventory.view";
+import { sideKebabMenu } from "../../../../views/applicationinventory.view";
 
 let source_credential: CredentialsSourceControlUsername;
 let application: Analysis;

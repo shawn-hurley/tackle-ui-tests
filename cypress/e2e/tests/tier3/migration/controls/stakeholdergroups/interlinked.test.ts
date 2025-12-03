@@ -28,9 +28,9 @@ import {
 import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { stakeholderGroups, tdTag, trTag } from "../../../../../types/constants";
-import { expandRow } from "../../../../views/common.view";
-import { navTab } from "../../../../views/menu.view";
-import { stakeHoldersTable } from "../../../../views/stakeholders.view";
+import { expandRow } from "../../../../../views/common.view";
+import { navTab } from "../../../../../views/menu.view";
+import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 
 let stakeholdersList: Array<Stakeholders> = [];
 const membersList: Array<string> = [];

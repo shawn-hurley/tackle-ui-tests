@@ -33,7 +33,7 @@ import {
     SEC,
     UserCredentials,
 } from "../../../../../types/constants";
-import { appDetailsView } from "../../../../views/applicationinventory.view";
+import { appDetailsView } from "../../../../../views/applicationinventory.view";
 
 let source_credential: CredentialsSourceControlUsername;
 let tagCategory: TagCategory;

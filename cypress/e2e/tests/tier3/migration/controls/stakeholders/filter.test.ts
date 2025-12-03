@@ -42,8 +42,8 @@ import { Jobfunctions } from "../../../../../models/migration/controls/jobfuncti
 import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 
-import * as commonView from "../../../../views/common.view";
-import { stakeHoldersTable } from "../../../../views/stakeholders.view";
+import * as commonView from "../../../../../views/common.view";
+import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 
 let stakeholdersList: Array<Stakeholders> = [];
 let jobFunctionsList: Array<Jobfunctions> = [];

@@ -58,9 +58,9 @@ import { Archetype } from "../../../../../models/migration/archetypes/archetype"
 import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { Tag } from "../../../../../models/migration/controls/tags";
-import * as commonView from "../../../../views/common.view";
-import { filterDropDownContainer, standardFilter } from "../../../../views/common.view";
-import { searchMenuToggle } from "../../../../views/issue.view";
+import * as commonView from "../../../../../views/common.view";
+import { filterDropDownContainer, standardFilter } from "../../../../../views/common.view";
+import { searchMenuToggle } from "../../../../../views/issue.view";
 
 let source_credential;
 let maven_credential;

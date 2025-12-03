@@ -20,8 +20,8 @@ import { checkSuccessAlert, deleteByList, exists, login, notExists } from "../..
 import { CredentialsSourceControlUsername } from "../../../../models/administration/credentials/credentialsSourceControlUsername";
 import { SourcePlatform } from "../../../../models/administration/source-platform/source-platform";
 import { CredentialType, UserCredentials } from "../../../../types/constants";
-import { successAlertMessage } from "../../../views/common.view";
-import * as selectors from "../../../views/source-platform.view";
+import { successAlertMessage } from "../../../../views/common.view";
+import * as selectors from "../../../../views/source-platform.view";
 
 let cloudFoundryCreds: Array<CredentialsSourceControlUsername> = [];
 

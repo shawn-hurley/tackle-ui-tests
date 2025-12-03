@@ -30,7 +30,7 @@ import {
 import { button, clearAllFilters } from "../../../../../types/constants";
 
 import { Application } from "../../../../../models/migration/applicationinventory/application";
-import { FileName } from "../../../../views/applicationinventory.view";
+import { FileName } from "../../../../../views/applicationinventory.view";
 
 const filePath = "app_import/csv/";
 const filesToImport = [

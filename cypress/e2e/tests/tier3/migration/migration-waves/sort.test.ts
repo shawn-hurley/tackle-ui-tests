@@ -39,7 +39,7 @@ import { BusinessServices } from "../../../../models/migration/controls/business
 import { Stakeholders } from "../../../../models/migration/controls/stakeholders";
 import { MigrationWave } from "../../../../models/migration/migration-waves/migration-wave";
 import { name } from "../../../../types/constants";
-import { MigrationWaveView } from "../../../views/migration-wave.view";
+import { MigrationWaveView } from "../../../../views/migration-wave.view";
 
 let migrationWavesList: MigrationWave[] = [];
 let applicationsList: Application[] = [];

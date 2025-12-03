@@ -25,7 +25,7 @@ import {
     validatePagination,
 } from "../../../../../../utils/utils";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
-import { appTable } from "../../../../views/common.view";
+import { appTable } from "../../../../../views/common.view";
 
 describe(["@tier3"], "Stakeholder pagination validations", function () {
     before("Login and Create Test Data", function () {

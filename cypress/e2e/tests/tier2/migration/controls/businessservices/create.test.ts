@@ -37,13 +37,13 @@ import {
 import {
     businessServiceDescriptionInput,
     businessServiceNameInput,
-} from "../../../../views/businessservices.view";
-import * as commonView from "../../../../views/common.view";
+} from "../../../../../views/businessservices.view";
+import * as commonView from "../../../../../views/common.view";
 
 import * as data from "../../../../../../utils/data_utils";
 import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
-import { stakeHoldersTable } from "../../../../views/stakeholders.view";
+import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 
 describe(["@tier2"], "Business service validations", () => {
     it("Business service field validations", function () {

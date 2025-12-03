@@ -36,7 +36,7 @@ import {
 import {
     stakeholdergroupDescriptionInput,
     stakeholdergroupNameInput,
-} from "../../../../views/stakeholdergroups.view";
+} from "../../../../../views/stakeholdergroups.view";
 
 describe(["@tier2"], "Stakeholder groups validations", () => {
     const stakeholdergroup = new Stakeholdergroups(data.getCompanyName(), data.getDescription());

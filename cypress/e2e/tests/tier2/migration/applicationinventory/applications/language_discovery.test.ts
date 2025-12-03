@@ -15,7 +15,7 @@ limitations under the License.
 */
 /// <reference types="cypress" />
 
-import { languageDiscoveryData } from "../../../../../fixtures/language_discovery.json";
+import { languageDiscoveryData } from "../../../../../../fixtures/language_discovery.json";
 import { getRandomCredentialsData } from "../../../../../../utils/data_utils";
 import {
     deleteAppImportsTableRows,
@@ -36,7 +36,7 @@ import {
     TaskStatus,
     UserCredentials,
 } from "../../../../../types/constants";
-import { labelTagText } from "../../../../views/applicationinventory.view";
+import { labelTagText } from "../../../../../views/applicationinventory.view";
 
 let applicationList: Application[] = [];
 let credentialsList: Credentials[] = [];

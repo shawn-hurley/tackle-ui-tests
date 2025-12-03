@@ -25,8 +25,8 @@ import {
 } from "../../../../../utils/utils";
 import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
 import { button, cancel, save } from "../../../../types/constants";
-import { tableHead } from "../../../views/common.view";
-import { TaskManagerTableHeaders } from "../../../views/taskmanager.view";
+import { tableHead } from "../../../../views/common.view";
+import { TaskManagerTableHeaders } from "../../../../views/taskmanager.view";
 
 describe(["@tier3"], "Task manager - table column management validation", function () {
     const taskManagerDefaultColumns = Object.values(TaskManagerTableHeaders).slice(0, 6);

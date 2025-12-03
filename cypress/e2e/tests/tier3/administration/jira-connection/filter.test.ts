@@ -28,7 +28,7 @@ import {
 import { JiraCredentials } from "../../../../models/administration/credentials/JiraCredentials";
 import { Jira } from "../../../../models/administration/jira-connection/jira";
 import { CredentialType } from "../../../../types/constants";
-import { jiraTable } from "../../../views/jira.view";
+import { jiraTable } from "../../../../views/jira.view";
 
 describe(["@tier3"], "Jira connection filter validations", () => {
     const useTestingAccount = true;

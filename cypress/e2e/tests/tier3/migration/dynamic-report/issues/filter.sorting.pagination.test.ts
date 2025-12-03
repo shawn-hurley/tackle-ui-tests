@@ -44,7 +44,7 @@ import { Tag } from "../../../../../models/migration/controls/tags";
 import { Issues } from "../../../../../models/migration/dynamic-report/issues/issues";
 import { AnalysisStatuses, issueFilter, SEC, tdTag, trTag } from "../../../../../types/constants";
 import { AppIssue } from "../../../../../types/types";
-import { rightSideBar } from "../../../../views/issue.view";
+import { rightSideBar } from "../../../../../views/issue.view";
 
 describe(["@tier3"], "Filtering, sorting and pagination in Issues", function () {
     const applicationsList: Analysis[] = [];

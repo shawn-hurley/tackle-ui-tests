@@ -47,7 +47,7 @@ import {
     applicationDescriptionInput,
     applicationNameInput,
     applicationOwnerInput,
-} from "../../../../views/applicationinventory.view";
+} from "../../../../../views/applicationinventory.view";
 
 import * as data from "../../../../../../utils/data_utils";
 import { Application } from "../../../../../models/migration/applicationinventory/application";
@@ -55,7 +55,7 @@ import { BusinessServices } from "../../../../../models/migration/controls/busin
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { Tag } from "../../../../../models/migration/controls/tags";
 import { MigrationWave } from "../../../../../models/migration/migration-waves/migration-wave";
-import * as commonView from "../../../../views/common.view";
+import * as commonView from "../../../../../views/common.view";
 
 let businessservicesList: Array<BusinessServices> = [];
 let stakeHoldersList: Stakeholders[];

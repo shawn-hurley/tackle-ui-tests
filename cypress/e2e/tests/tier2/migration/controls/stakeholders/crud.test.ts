@@ -28,7 +28,7 @@ import { Jobfunctions } from "../../../../../models/migration/controls/jobfuncti
 import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { tdTag } from "../../../../../types/constants";
-import { groupsCount, stakeHoldersTable } from "../../../../views/stakeholders.view";
+import { groupsCount, stakeHoldersTable } from "../../../../../views/stakeholders.view";
 let jobFunctionsList: Array<Jobfunctions> = [];
 let stakeholderGroupList: Array<Stakeholdergroups> = [];
 

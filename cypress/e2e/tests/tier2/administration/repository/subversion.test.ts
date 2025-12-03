@@ -26,7 +26,7 @@ import { CredentialsSourceControlUsername } from "../../../../models/administrat
 import { SubversionConfiguration } from "../../../../models/administration/repositories/subversion";
 import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
 import { AnalysisStatuses, CredentialType } from "../../../../types/constants";
-import { analysisDetailsEditor } from "../../../views/analysis.view";
+import { analysisDetailsEditor } from "../../../../views/analysis.view";
 
 describe(["@tier2"], "Test secure and insecure svn repository analysis", () => {
     const subversionConfiguration = new SubversionConfiguration();

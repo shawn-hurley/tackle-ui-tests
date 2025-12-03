@@ -19,7 +19,7 @@ import { getRandomProxyData } from "../../../../../../utils/data_utils";
 import { getRandomAnalysisData, getRandomApplicationData } from "../../../../../../utils/utils";
 import { Proxy } from "../../../../../models/administration/proxy/proxy";
 import { Analysis } from "../../../../../models/migration/applicationinventory/analysis";
-import { ProxyType } from "../../../../views/proxy.view";
+import { ProxyType } from "../../../../../views/proxy.view";
 
 let application: Analysis;
 

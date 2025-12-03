@@ -36,9 +36,9 @@ import { Stakeholdergroups } from "../../../../../models/migration/controls/stak
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { Tag } from "../../../../../models/migration/controls/tags";
 import { applicationInventory, button, legacyPathfinder } from "../../../../../types/constants";
-import { businessColumnSelector } from "../../../../views/applicationinventory.view";
-import { continueButton, stakeholdersAndGroupsSelect } from "../../../../views/assessment.view";
-import { navMenu } from "../../../../views/menu.view";
+import { businessColumnSelector } from "../../../../../views/applicationinventory.view";
+import { continueButton, stakeholdersAndGroupsSelect } from "../../../../../views/assessment.view";
+import { navMenu } from "../../../../../views/menu.view";
 
 let stakeholdersList: Array<Stakeholders> = [];
 let stakeholderGroupsList: Array<Stakeholdergroups> = [];

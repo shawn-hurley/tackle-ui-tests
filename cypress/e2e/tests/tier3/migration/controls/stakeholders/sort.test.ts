@@ -31,7 +31,7 @@ import { displayName, email, jobFunction, SortType } from "../../../../../types/
 import { Jobfunctions } from "../../../../../models/migration/controls/jobfunctions";
 import { Stakeholdergroups } from "../../../../../models/migration/controls/stakeholdergroups";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
-import { stakeHoldersTable } from "../../../../views/stakeholders.view";
+import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 
 let stakeholdersList: Array<Stakeholders> = [];
 let jobFunctionsList: Array<Jobfunctions> = [];

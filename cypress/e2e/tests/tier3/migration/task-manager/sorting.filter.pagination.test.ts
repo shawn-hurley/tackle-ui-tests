@@ -34,7 +34,7 @@ import {
 import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
 import { TaskManager } from "../../../../models/migration/task-manager/task-manager";
 import { SEC, TaskFilter, TaskKind, TaskStatus, trTag } from "../../../../types/constants";
-import { TaskManagerColumns, TaskManagerTableHeaders } from "../../../views/taskmanager.view";
+import { TaskManagerColumns, TaskManagerTableHeaders } from "../../../../views/taskmanager.view";
 
 describe(["@tier3"], "Filtering, sorting and pagination in Task Manager Page", function () {
     const applicationsList: Analysis[] = [];

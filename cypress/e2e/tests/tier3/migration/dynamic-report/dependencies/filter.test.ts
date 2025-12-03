@@ -39,7 +39,7 @@ import { Tag } from "../../../../../models/migration/controls/tags";
 import { Dependencies } from "../../../../../models/migration/dynamic-report/dependencies/dependencies";
 import { button, dependencyFilter, SEC, trTag } from "../../../../../types/constants";
 import { AppDependency } from "../../../../../types/types";
-import { rightSideMenu } from "../../../../views/analysis.view";
+import { rightSideMenu } from "../../../../../views/analysis.view";
 
 let applicationsList: Array<Analysis> = [];
 let businessServiceList: BusinessServices[];

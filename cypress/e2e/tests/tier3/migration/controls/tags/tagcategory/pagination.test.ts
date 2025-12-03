@@ -26,8 +26,8 @@ import {
 import { SEC } from "../../../../../../types/constants";
 
 import { TagCategory } from "../../../../../../models/migration/controls/tagcategory";
-import { appTable } from "../../../../../views/common.view";
-import { tagCategory } from "../../../../../views/tags.view";
+import { appTable } from "../../../../../../views/common.view";
+import { tagCategory } from "../../../../../../views/tags.view";
 
 describe(["@tier3"], "Tag category pagination validations", function () {
     before("Login and Create Test Data", function () {

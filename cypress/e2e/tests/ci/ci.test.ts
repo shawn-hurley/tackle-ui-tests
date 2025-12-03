@@ -35,7 +35,7 @@ import { Jobfunctions } from "../../models/migration/controls/jobfunctions";
 import { Stakeholdergroups } from "../../models/migration/controls/stakeholdergroups";
 import { Stakeholders } from "../../models/migration/controls/stakeholders";
 import { Tag } from "../../models/migration/controls/tags";
-import { infoAlertMessage, successAlertMessage } from "../views/common.view";
+import { infoAlertMessage, successAlertMessage } from "../../views/common.view";
 
 import { AssessmentQuestionnaire } from "../../models/administration/assessment_questionnaire/assessment_questionnaire";
 import { Analysis } from "../../models/migration/applicationinventory/analysis";

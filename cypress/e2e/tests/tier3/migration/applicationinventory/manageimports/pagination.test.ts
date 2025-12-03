@@ -30,7 +30,7 @@ import {
 } from "../../../../../../utils/utils";
 
 import { Application } from "../../../../../models/migration/applicationinventory/application";
-import * as commonView from "../../../../views/common.view";
+import * as commonView from "../../../../../views/common.view";
 
 const filePath = "app_import/csv/";
 const filesToImport = "valid_application_rows.csv";

@@ -24,8 +24,8 @@ import {
     max120CharsMsg,
     minCharsMsg,
 } from "../../../../../types/constants";
-import * as commonView from "../../../../views/common.view";
-import { jobfunctionNameInput } from "../../../../views/jobfunctions.view";
+import * as commonView from "../../../../../views/common.view";
+import { jobfunctionNameInput } from "../../../../../views/jobfunctions.view";
 
 describe(["@tier2"], "Job Function Validations", () => {
     const jobfunction = new Jobfunctions(data.getJobTitle());

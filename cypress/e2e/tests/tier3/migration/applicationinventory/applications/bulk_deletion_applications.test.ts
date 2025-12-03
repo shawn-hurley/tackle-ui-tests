@@ -28,8 +28,8 @@ import {
     applicationsActionButton,
     appSelectionButton,
     bulkApplicationSelectionCheckBox,
-} from "../../../../views/applicationinventory.view";
-import * as commonView from "../../../../views/common.view";
+} from "../../../../../views/applicationinventory.view";
+import * as commonView from "../../../../../views/common.view";
 
 describe(["@tier3"], "Bulk deletion of applications", () => {
     before("Login", function () {

@@ -36,7 +36,7 @@ import { cloudNative, legacyPathfinder } from "../../../../types/constants";
 import {
     identifiedRisksFilterValidations,
     landscapeFilterDropdown,
-} from "../../../views/reportsTab.view";
+} from "../../../../views/reportsTab.view";
 
 let applications: Application[];
 let stakeholder: Stakeholders;

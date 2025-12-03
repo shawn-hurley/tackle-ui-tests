@@ -28,10 +28,10 @@ import {
     dropdownMenuTypeToggle,
     nameInput,
     tagsHelper,
-} from "../../../../../views/tags.view";
+} from "../../../../../../views/tags.view";
 
 import * as data from "../../../../../../../utils/data_utils";
-import * as commonView from "../../../../../views/common.view";
+import * as commonView from "../../../../../../views/common.view";
 
 describe(["@tier2"], "Tag category validations", () => {
     it("Tag type field validations", function () {

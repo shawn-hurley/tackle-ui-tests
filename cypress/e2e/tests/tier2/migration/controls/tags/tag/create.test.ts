@@ -24,7 +24,7 @@ import {
     dropdownMenuToggle,
     nameInput,
     tagsHelper,
-} from "../../../../../views/tags.view";
+} from "../../../../../../views/tags.view";
 
 describe(["@tier2"], "Tag validations", () => {
     beforeEach("Persist session", function () {

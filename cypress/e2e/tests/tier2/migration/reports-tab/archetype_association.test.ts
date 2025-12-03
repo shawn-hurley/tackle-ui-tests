@@ -29,7 +29,7 @@ import { legacyPathfinder } from "../../../../types/constants";
 import * as data from "../../../../../utils/data_utils";
 import { Archetype } from "../../../../models/migration/archetypes/archetype";
 import { Reports } from "../../../../models/migration/reports-tab/reports-tab";
-import { mediumRiskDonut } from "../../../views/reportsTab.view";
+import { mediumRiskDonut } from "../../../../views/reportsTab.view";
 
 let stakeholderList: Array<Stakeholders> = [];
 

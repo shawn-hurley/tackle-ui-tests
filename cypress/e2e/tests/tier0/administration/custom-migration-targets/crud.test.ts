@@ -40,8 +40,8 @@ import {
     SEC,
     UserCredentials,
 } from "../../../../types/constants";
-import { cancelButton } from "../../../views/common.view";
-import { CustomMigrationTargetView } from "../../../views/custom-migration-target.view";
+import { cancelButton } from "../../../../views/common.view";
+import { CustomMigrationTargetView } from "../../../../views/custom-migration-target.view";
 
 describe(["@tier0", "@interop"], "Custom Migration Targets CRUD operations", () => {
     let appFixture: string;

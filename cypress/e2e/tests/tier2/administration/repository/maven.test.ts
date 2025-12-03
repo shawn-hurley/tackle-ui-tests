@@ -31,7 +31,7 @@ import { CredentialsSourceControlUsername } from "../../../../models/administrat
 import { MavenConfiguration } from "../../../../models/administration/repositories/maven";
 import { Analysis } from "../../../../models/migration/applicationinventory/analysis";
 import { CredentialType, UserCredentials } from "../../../../types/constants";
-import { clearRepository, repoSize } from "../../../views/repository.view";
+import { clearRepository, repoSize } from "../../../../views/repository.view";
 
 let mavenConfiguration = new MavenConfiguration();
 let source_credential;

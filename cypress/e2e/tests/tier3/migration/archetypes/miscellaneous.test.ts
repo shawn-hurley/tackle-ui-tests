@@ -38,18 +38,18 @@ import {
     tdTag,
     trTag,
 } from "../../../../types/constants";
-import { questionBlock } from "../../../views/assessment.view";
+import { questionBlock } from "../../../../views/assessment.view";
 import {
     ArchivedQuestionnaires,
     ArchivedQuestionnairesTableDataCell,
-} from "../../../views/assessmentquestionnaire.view";
+} from "../../../../views/assessmentquestionnaire.view";
 import {
     nextButton,
     radioButton,
     radioButtonLabel,
     splitItem,
     successAlertMessage,
-} from "../../../views/common.view";
+} from "../../../../views/common.view";
 
 let stakeholderList: Stakeholders[];
 let archetype: Archetype;

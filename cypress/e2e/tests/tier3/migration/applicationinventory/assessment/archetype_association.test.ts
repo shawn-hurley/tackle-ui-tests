@@ -36,8 +36,8 @@ import {
     cloudReadinessQuestionnaire,
     legacyPathfinder,
 } from "../../../../../types/constants";
-import { customActionButton, ViewArchetypes } from "../../../../views/applicationinventory.view";
-import { archetypeDropdown } from "../../../../views/archetype.view";
+import { customActionButton, ViewArchetypes } from "../../../../../views/applicationinventory.view";
+import { archetypeDropdown } from "../../../../../views/archetype.view";
 
 let applicationList: Application[];
 let inheritanceTags: Tag[];

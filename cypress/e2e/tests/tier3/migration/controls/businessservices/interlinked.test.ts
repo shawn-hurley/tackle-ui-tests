@@ -20,8 +20,8 @@ import { clickByText, exists, notExists, selectItemsPerPage } from "../../../../
 import { BusinessServices } from "../../../../../models/migration/controls/businessservices";
 import { Stakeholders } from "../../../../../models/migration/controls/stakeholders";
 import { businessServices, tdTag } from "../../../../../types/constants";
-import { navTab } from "../../../../views/menu.view";
-import { stakeHoldersTable } from "../../../../views/stakeholders.view";
+import { navTab } from "../../../../../views/menu.view";
+import { stakeHoldersTable } from "../../../../../views/stakeholders.view";
 
 describe(["@tier3"], "Business service linked to stakeholder", () => {
     beforeEach("Login", function () {

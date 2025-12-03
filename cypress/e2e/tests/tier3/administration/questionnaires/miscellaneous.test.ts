@@ -6,10 +6,10 @@ import {
     legacyPathfinder,
     sampleQuestionnaireTemplate,
 } from "../../../../types/constants";
-import { downloadYamlTemplate } from "../../../views/assessmentquestionnaire.view";
-import { alertTitle } from "../../../views/common.view";
+import { downloadYamlTemplate } from "../../../../views/assessmentquestionnaire.view";
+import { alertTitle } from "../../../../views/common.view";
 
-import { closeModal } from "../../../views/assessment.view";
+import { closeModal } from "../../../../views/assessment.view";
 const filePath = "cypress/downloads/questionnaire-template.yaml";
 const yaml = require("js-yaml");
 const yamlFile = "questionnaire_import/questionnaire-template-sample.yaml";

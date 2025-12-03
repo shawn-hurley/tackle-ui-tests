@@ -31,8 +31,8 @@ import {
     modalBoxDialog,
     modalBoxMessage,
     reviewConfirmationText,
-} from "../../../../views/applicationinventory.view";
-import { confirmCancelButton } from "../../../../views/common.view";
+} from "../../../../../views/applicationinventory.view";
+import { confirmCancelButton } from "../../../../../views/common.view";
 
 let stakeholders: Stakeholders[];
 const yamlFile = "questionnaire_import/cloud-native.yaml";

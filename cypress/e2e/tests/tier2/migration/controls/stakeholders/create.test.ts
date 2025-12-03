@@ -36,10 +36,10 @@ import {
     stakeholderHelper,
     stakeholderNameInput,
     stakeHoldersTable,
-} from "../../../../views/stakeholders.view";
+} from "../../../../../views/stakeholders.view";
 
 import * as data from "../../../../../../utils/data_utils";
-import * as commonView from "../../../../views/common.view";
+import * as commonView from "../../../../../views/common.view";
 
 describe(["@tier2"], "Stakeholder validations", () => {
     const stakeholder = new Stakeholders(data.getEmail(), data.getFullName());

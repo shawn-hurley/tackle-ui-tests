@@ -24,8 +24,8 @@ import {
 } from "../../../../../utils/utils";
 import { CustomMigrationTarget } from "../../../../models/administration/custom-migration-targets/custom-migration-target";
 import { MustbeAValidRepositoryURL, RepositoryType } from "../../../../types/constants";
-import { cancelButton, submitButton } from "../../../views/common.view";
-import { CustomMigrationTargetView } from "../../../views/custom-migration-target.view";
+import { cancelButton, submitButton } from "../../../../views/common.view";
+import { CustomMigrationTargetView } from "../../../../views/custom-migration-target.view";
 
 describe(["@tier3"], "Custom Migration Target Validations", () => {
     /**

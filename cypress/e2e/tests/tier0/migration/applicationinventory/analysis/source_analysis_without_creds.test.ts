@@ -27,7 +27,7 @@ import { Analysis } from "../../../../../models/migration/applicationinventory/a
 import { TaskManager } from "../../../../../models/migration/task-manager/task-manager";
 import { CredentialType, TaskKind, TaskStatus, UserCredentials } from "../../../../../types/constants";
 import { AppIssue } from "../../../../../types/types";
-import { infoAlertMessage } from "../../../../views/common.view";
+import { infoAlertMessage } from "../../../../../views/common.view";
 let applicationsList: Array<Analysis> = [];
 let credentialsList: Array<CredentialsSourceControlUsername> = [];
 let application: Analysis;

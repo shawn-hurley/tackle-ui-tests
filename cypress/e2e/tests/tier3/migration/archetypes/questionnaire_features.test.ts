@@ -33,8 +33,8 @@ import {
     cloudReadinessQuestionnaire,
     legacyPathfinder,
 } from "../../../../types/constants";
-import { questionBlock } from "../../../views/assessment.view";
-import { nextButton, radioButton, radioButtonLabel, splitItem } from "../../../views/common.view";
+import { questionBlock } from "../../../../views/assessment.view";
+import { nextButton, radioButton, radioButtonLabel, splitItem } from "../../../../views/common.view";
 
 let stakeholderList: Array<Stakeholders> = [];
 let archetype: Archetype;
